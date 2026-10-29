@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "stage": "stationary noiseless baseline; no dynamic sweep",
+  "default_configuration": "Config1",
+  "units": {
+    "position": "m",
+    "field": "T",
+    "gradient": "T/m",
+    "time": "s",
+    "moment": "A m^2",
+    "rotation": "sensor frame to world"
+  },
+  "sensor_offsets_m": [
+    [
+      -0.001,
+      0.00105,
+      -0.001
+    ],
+    [
+      -0.001,
+      0.00105,
+      0.0
+    ],
+    [
+      -0.001,
+      0.00105,
+      0.001
+    ],
+    [
+      -0.001,
+      -0.00105,
+      -0.001
+    ],
+    [
+      -0.001,
+      -0.00105,
+      0.0
+    ],
+    [
+      -0.001,
+      -0.00105,
+      0.001
+    ],
+    [
+      0.001,
+      0.00105,
+      -0.001
+    ],
+    [
+      0.001,
+      0.00105,
+      0.0
+    ],
+    [
+      0.001,
+      0.00105,
+      0.001
+    ],
+    [
+      0.001,
+      -0.00105,
+      -0.001
+    ],
+    [
+      0.001,
+      -0.00105,
+      0.0
+    ],
+    [
+      0.001,
+      -0.00105,
+      0.001
+    ]
+  ],
+  "configurations": {
+    "Config1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "Config2": [
+      1,
+      3,
+      4,
+      6,
+      7,
+      9,
+      10,
+      12
+    ],
+    "Config3": [
+      2,
+      3,
+      12
+    ]
+  },
+  "source_signed_moments_A_m2": [
+    -94.0,
+    -94.0,
+    -94.0
+  ],
+  "source_moment_note": "Fixed ideal excitation. Magnitude follows current R4-C1 10 A estimate, not a new calibration. Polarity follows archived source-axis convention. Pose recovery should be invariant to nonzero independent source scaling.",
+  "sources_csv": "inputs/fig6_source_configuration.csv",
+  "targets_csv": "inputs/fig6_target_poses.csv",
+  "source_geometry_rule": "Frozen arithmetic mean positions and normalized mean tracked +z axes from the ten archived Fig.6 records, matching existing provenance.",
+  "target_rule": "All ten archived target poses, each tested independently as a stationary pose; not interpreted as a continuous trajectory.",
+  "timing": {
+    "coil_inductance_H": 0.0241,
+    "coil_resistance_ohm": 2.1,
+    "relative_settling_time_constants": 5,
+    "sensor_rate_Hz": 1000.0,
+    "CV_slot_s": 0.072,
+    "CV_wait_s": 0.06,
+    "CV_slots": 4,
+    "CV_sampling_budget_s": 0.012,
+    "CC_wait_s": 0.02,
+    "CC_slots": 3,
+    "CV_rule": "Nominal reproduction of the reported common 3.47 Hz CV schedule: 4 x 72 ms. 60 ms scheduled wait, then 12 ms budget; fewer active sensors leave padding. This is a stated schedule assumption, not a verified firmware trace.",
+    "CC_rule": "Nominal rule from data/experiment_details.md: Tslot=20 ms + N/1000, 3 slots. Only the fastest 3-sensor 14.49 Hz case is explicitly reported in the main text.",
+    "sample_phase_rule": "Point sample at the midpoint of each 1 ms sensor window, selected sensor IDs in ascending order. Integration aperture, read order and firmware clock alignment are unverified. Static baseline does not depend on these choices.",
+    "reference_rule": "Reported acquisition end is final source sensor-window end. Full-cycle end (including CV background/padding) is stored separately. No host computation or transmission delay included."
+  },
+  "idealization": {
+    "noise_std_T": 0.0,
+    "background_field_T": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sensor_bias_T": 0.0,
+    "gain_error": 0.0,
+    "axis_misalignment_rad": 0.0,
+    "source_geometry_error_m": 0.0,
+    "sensor_geometry_error_m": 0.0,
+    "higher_order_source_terms": false,
+    "quantization": false,
+    "saturation": false,
+    "temporal_averaging": false,
+    "current_transient_model": "Settled source field only; wait times remain in the schedule. Switching transients and residual fields are excluded."
+  },
+  "measurement_models": [
+    "point_dipole_full_array",
+    "matched_local_linear"
+  ],
+  "model_notes": {
+    "point_dipole_full_array": "Primary noiseless baseline. Exact point-dipole field at every physical sensor offset; finite-array gradient approximation remains.",
+    "matched_local_linear": "Algebraic control only. Use analytic center field and gradient to synthesize b + X d, then the same estimator. Removes spatial Taylor truncation as well as external errors. Not exact finite-array field sampling."
+  }
+}

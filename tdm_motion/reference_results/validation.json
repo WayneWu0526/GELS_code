@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "case_count": 11520,
+  "phase_count": 180,
+  "speed_count": 8,
+  "nonfinite_results": 0,
+  "discarded_cases": 0,
+  "max_zero_speed_field_difference_T": 0.0,
+  "max_repeat_position_difference_m": 0.0,
+  "checked_repeat_phases": [
+    0,
+    47,
+    119
+  ],
+  "max_rotation_orthogonality_error": 3.4352117349119506e-15,
+  "max_path_radius_error_m": 3.469446951953614e-17,
+  "finite_difference_speed_m_s": 0.09999999998972117,
+  "ideal_rho_static_max_ep_mm": 1.1443916996305594e-13,
+  "source_distance_range_mm": [
+    141.1707458651007,
+    295.8193175751746
+  ],
+  "phase_statistics_note": "deterministic phase distribution, not repeated independent noisy trials",
+  "elapsed_s": 3.816128749982454
+}

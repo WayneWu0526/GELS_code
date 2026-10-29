@@ -1,0 +1,95 @@
+{
+  "statistic": "mean with 5th to 95th phase percentiles; NumPy linear quantiles",
+  "interpretation": "deterministic variation across matched trajectory phases, not a confidence interval",
+  "groups": [
+    {
+      "mode": "CV",
+      "speed_mm_s": 0.0,
+      "n": 180
+    },
+    {
+      "mode": "CV",
+      "speed_mm_s": 1.0,
+      "n": 180
+    },
+    {
+      "mode": "CV",
+      "speed_mm_s": 2.0,
+      "n": 180
+    },
+    {
+      "mode": "CV",
+      "speed_mm_s": 5.0,
+      "n": 180
+    },
+    {
+      "mode": "CV",
+      "speed_mm_s": 10.0,
+      "n": 180
+    },
+    {
+      "mode": "CV",
+      "speed_mm_s": 20.0,
+      "n": 180
+    },
+    {
+      "mode": "CV",
+      "speed_mm_s": 50.0,
+      "n": 180
+    },
+    {
+      "mode": "CV",
+      "speed_mm_s": 100.0,
+      "n": 180
+    },
+    {
+      "mode": "CC",
+      "speed_mm_s": 0.0,
+      "n": 180
+    },
+    {
+      "mode": "CC",
+      "speed_mm_s": 1.0,
+      "n": 180
+    },
+    {
+      "mode": "CC",
+      "speed_mm_s": 2.0,
+      "n": 180
+    },
+    {
+      "mode": "CC",
+      "speed_mm_s": 5.0,
+      "n": 180
+    },
+    {
+      "mode": "CC",
+      "speed_mm_s": 10.0,
+      "n": 180
+    },
+    {
+      "mode": "CC",
+      "speed_mm_s": 20.0,
+      "n": 180
+    },
+    {
+      "mode": "CC",
+      "speed_mm_s": 50.0,
+      "n": 180
+    },
+    {
+      "mode": "CC",
+      "speed_mm_s": 100.0,
+      "n": 180
+    }
+  ],
+  "plot_axes": {
+    "x": "linear",
+    "y": "linear"
+  },
+  "plot_speed_range_mm_s": [
+    0,
+    10
+  ],
+  "zero_speed": "Included in the main plot and retained in zero_speed_baseline.csv"
+}

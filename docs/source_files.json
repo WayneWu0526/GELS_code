@@ -1,0 +1,1066 @@
+[
+  {
+    "path": "core/README.md",
+    "source": "RA-L/multimedia/source_code/README.md",
+    "original_sha256": "a62baa03d251cbe762af6cd929ef635efb10981038d9ce05f9319f89c70ae829",
+    "packaged_sha256": "cf1d74a8465ef9d180882fc5a6c297bd3baa32335ede27edbdbeef20d1f7b161",
+    "modified_for_packaging": true
+  },
+  {
+    "path": "core/configs/example.yaml",
+    "source": "RA-L/multimedia/source_code/configs/example.yaml",
+    "original_sha256": "63b10c350b7ced946adb893974839831fbca8968eb42b71dd152789a0db1468a",
+    "packaged_sha256": "63b10c350b7ced946adb893974839831fbca8968eb42b71dd152789a0db1468a",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "core/kabsch_solver.py",
+    "source": "RA-L/multimedia/source_code/kabsch_solver.py",
+    "original_sha256": "1c9541e91b36c42b9597dbb57690d4825cedc14bf23e390e52080215159fc0d5",
+    "packaged_sha256": "1c9541e91b36c42b9597dbb57690d4825cedc14bf23e390e52080215159fc0d5",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "core/mag_dipole_model.py",
+    "source": "RA-L/multimedia/source_code/mag_dipole_model.py",
+    "original_sha256": "8e5aca104d962cb0d67e9778d79cbde5079260d6b2aa0f1497f7120ee99319fc",
+    "packaged_sha256": "8e5aca104d962cb0d67e9778d79cbde5079260d6b2aa0f1497f7120ee99319fc",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "core/maps_estimator.py",
+    "source": "RA-L/multimedia/source_code/maps_estimator.py",
+    "original_sha256": "dfad3f8a493a94f4d405f7fa74d6accbe804db9a148de417f939b166f14249ac",
+    "packaged_sha256": "e94547db59a6c48f22729419463442f4461a111d0cee8481ccf45b2a90394e12",
+    "modified_for_packaging": true
+  },
+  {
+    "path": "core/requirements.txt",
+    "source": "RA-L/multimedia/source_code/requirements.txt",
+    "original_sha256": "ece1009a857864ec00fd08c7509e588cdf2b89eb38e5399aa3a96af4937bd521",
+    "packaged_sha256": "ece1009a857864ec00fd08c7509e588cdf2b89eb38e5399aa3a96af4937bd521",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "core/run_simulation.py",
+    "source": "RA-L/multimedia/source_code/run_simulation.py",
+    "original_sha256": "fbd8c0ee71429b2034a80ee79689e86c342fae331a31e3c1db897974a3535711",
+    "packaged_sha256": "fbd8c0ee71429b2034a80ee79689e86c342fae331a31e3c1db897974a3535711",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "core/simulation.py",
+    "source": "RA-L/multimedia/source_code/simulation.py",
+    "original_sha256": "18387750ff8a50ca70e329d6eb05785e9a8d2b7352375a7f7f1867ba7a50ce37",
+    "packaged_sha256": "18387750ff8a50ca70e329d6eb05785e9a8d2b7352375a7f7f1867ba7a50ce37",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "calibration/reproduce_calibration.py",
+    "source": "RA-L/final_revision_20261028/step03_calibration/reproduce_calibration.py",
+    "original_sha256": "ed1e5475dca7984bb571d868493d2f738220e05cd752ed2b933f0b698184fb1e",
+    "packaged_sha256": "9e898e09545fb91e89b595732fab1194b1ce5a9c7097c3f2d8cc9e1158632966",
+    "modified_for_packaging": true
+  },
+  {
+    "path": "calibration/plot_residuals.py",
+    "source": "RA-L/final_revision_20261028/step03_calibration/plot_residuals.py",
+    "original_sha256": "f465cb8b7d9aa6797edc7c0936eab3d7826f2de24858571100c599f53962f244",
+    "packaged_sha256": "f465cb8b7d9aa6797edc7c0936eab3d7826f2de24858571100c599f53962f244",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "calibration/requirements.txt",
+    "source": "RA-L/final_revision_20261028/step03_calibration/requirements.txt",
+    "original_sha256": "a83a2a4ed7ab2e022b9b8a83cfa2b8cf52cc243006c597e8b96f90a8365590ac",
+    "packaged_sha256": "a83a2a4ed7ab2e022b9b8a83cfa2b8cf52cc243006c597e8b96f90a8365590ac",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "calibration/requirements-plot.txt",
+    "source": "RA-L/final_revision_20261028/step03_calibration/requirements-plot.txt",
+    "original_sha256": "ad80dc8d79cf9da8e93753e066c05c2a7e8106ad3391f8d1e56637a87e71730f",
+    "packaged_sha256": "ad80dc8d79cf9da8e93753e066c05c2a7e8106ad3391f8d1e56637a87e71730f",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "calibration/data/manual_x/manual_record_1V.csv",
+    "source": "RA-L/final_revision_20261028/step03_calibration/source_snapshot/src/sensor_data_collection/data/manual_x/manual_record_1V.csv",
+    "original_sha256": "0b94b525c9e8c10967847f9cc3d778c69618b6c90a0f86e355060afec8df03d2",
+    "packaged_sha256": "0b94b525c9e8c10967847f9cc3d778c69618b6c90a0f86e355060afec8df03d2",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "calibration/data/manual_x/manual_record_2V.csv",
+    "source": "RA-L/final_revision_20261028/step03_calibration/source_snapshot/src/sensor_data_collection/data/manual_x/manual_record_2V.csv",
+    "original_sha256": "e9a00fac5e1f830524b51cb63386dd21e3548fa7a2d8e78af9c994154fe8094f",
+    "packaged_sha256": "e9a00fac5e1f830524b51cb63386dd21e3548fa7a2d8e78af9c994154fe8094f",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "calibration/data/manual_x/manual_record_3V.csv",
+    "source": "RA-L/final_revision_20261028/step03_calibration/source_snapshot/src/sensor_data_collection/data/manual_x/manual_record_3V.csv",
+    "original_sha256": "50c03746f8d1cbb34bb53918e535c5c243e998c3d0ec4b0b85ae30909fb42467",
+    "packaged_sha256": "50c03746f8d1cbb34bb53918e535c5c243e998c3d0ec4b0b85ae30909fb42467",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "calibration/data/manual_x/manual_record_4V.csv",
+    "source": "RA-L/final_revision_20261028/step03_calibration/source_snapshot/src/sensor_data_collection/data/manual_x/manual_record_4V.csv",
+    "original_sha256": "f43996664998b3ef5e9fa8a604fb7019bc423d17f87c6c1651c4902d613815ba",
+    "packaged_sha256": "f43996664998b3ef5e9fa8a604fb7019bc423d17f87c6c1651c4902d613815ba",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "calibration/data/manual_x/manual_record_5V.csv",
+    "source": "RA-L/final_revision_20261028/step03_calibration/source_snapshot/src/sensor_data_collection/data/manual_x/manual_record_5V.csv",
+    "original_sha256": "839e7ded338f905caff287e7dd6fd50ca64a8ce492f7e14206598c767c46f2f7",
+    "packaged_sha256": "839e7ded338f905caff287e7dd6fd50ca64a8ce492f7e14206598c767c46f2f7",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "calibration/data/manual_y/manual_record_1V.csv",
+    "source": "RA-L/final_revision_20261028/step03_calibration/source_snapshot/src/sensor_data_collection/data/manual_y/manual_record_1V.csv",
+    "original_sha256": "cef5772c5f3d327767e1fac48059ed14949e3d3305d6b0d0568a4497cc3105b8",
+    "packaged_sha256": "cef5772c5f3d327767e1fac48059ed14949e3d3305d6b0d0568a4497cc3105b8",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "calibration/data/manual_y/manual_record_2V.csv",
+    "source": "RA-L/final_revision_20261028/step03_calibration/source_snapshot/src/sensor_data_collection/data/manual_y/manual_record_2V.csv",
+    "original_sha256": "918e895fb379c4e73a7d01c6d5b3b9cef30d5e05bc9b7edae07f66914fdca90a",
+    "packaged_sha256": "918e895fb379c4e73a7d01c6d5b3b9cef30d5e05bc9b7edae07f66914fdca90a",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "calibration/data/manual_y/manual_record_3V.csv",
+    "source": "RA-L/final_revision_20261028/step03_calibration/source_snapshot/src/sensor_data_collection/data/manual_y/manual_record_3V.csv",
+    "original_sha256": "6bee64692a06335f700e10409aa2197a2feaddab4676426f21425b0d7ff67404",
+    "packaged_sha256": "6bee64692a06335f700e10409aa2197a2feaddab4676426f21425b0d7ff67404",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "calibration/data/manual_y/manual_record_4V.csv",
+    "source": "RA-L/final_revision_20261028/step03_calibration/source_snapshot/src/sensor_data_collection/data/manual_y/manual_record_4V.csv",
+    "original_sha256": "cb75a77c13d61ea66694c47ca4470cf326e7c24d191afecfc993a95c7fe5359e",
+    "packaged_sha256": "cb75a77c13d61ea66694c47ca4470cf326e7c24d191afecfc993a95c7fe5359e",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "calibration/data/manual_y/manual_record_5V.csv",
+    "source": "RA-L/final_revision_20261028/step03_calibration/source_snapshot/src/sensor_data_collection/data/manual_y/manual_record_5V.csv",
+    "original_sha256": "d1fa7073011b2d078056c6164e54eb7062000dbd43df60adfdfd9b35c226555b",
+    "packaged_sha256": "d1fa7073011b2d078056c6164e54eb7062000dbd43df60adfdfd9b35c226555b",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "calibration/data/manual_z/manual_record_1V.csv",
+    "source": "RA-L/final_revision_20261028/step03_calibration/source_snapshot/src/sensor_data_collection/data/manual_z/manual_record_1V.csv",
+    "original_sha256": "3984653fb122d572ad35479885779311b2f08cccd01f6be016456000deaf7688",
+    "packaged_sha256": "3984653fb122d572ad35479885779311b2f08cccd01f6be016456000deaf7688",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "calibration/data/manual_z/manual_record_2V.csv",
+    "source": "RA-L/final_revision_20261028/step03_calibration/source_snapshot/src/sensor_data_collection/data/manual_z/manual_record_2V.csv",
+    "original_sha256": "a5f79e8eda9d41cc9bd4829a2797f004da75818eba50f534d466ca24dbab1207",
+    "packaged_sha256": "a5f79e8eda9d41cc9bd4829a2797f004da75818eba50f534d466ca24dbab1207",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "calibration/data/manual_z/manual_record_3V.csv",
+    "source": "RA-L/final_revision_20261028/step03_calibration/source_snapshot/src/sensor_data_collection/data/manual_z/manual_record_3V.csv",
+    "original_sha256": "3f3c1dc04da9266753d82a1bfa9d55654b26591960a69a069ffdabde432ee128",
+    "packaged_sha256": "3f3c1dc04da9266753d82a1bfa9d55654b26591960a69a069ffdabde432ee128",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "calibration/data/manual_z/manual_record_4V.csv",
+    "source": "RA-L/final_revision_20261028/step03_calibration/source_snapshot/src/sensor_data_collection/data/manual_z/manual_record_4V.csv",
+    "original_sha256": "af5c7ae2d6f86671d90e9e5ca695acd2ff26a36c0928205e3b52a56836579b97",
+    "packaged_sha256": "af5c7ae2d6f86671d90e9e5ca695acd2ff26a36c0928205e3b52a56836579b97",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "calibration/data/manual_z/manual_record_5V.csv",
+    "source": "RA-L/final_revision_20261028/step03_calibration/source_snapshot/src/sensor_data_collection/data/manual_z/manual_record_5V.csv",
+    "original_sha256": "046d575e390e86c70ba3e29a021bacfeae821d66e573a03431016172d4c047d3",
+    "packaged_sha256": "046d575e390e86c70ba3e29a021bacfeae821d66e573a03431016172d4c047d3",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "calibration/config/sensor_array_params.json",
+    "source": "RA-L/final_revision_20261028/step03_calibration/source_snapshot/src/sensor_array_config/sensor_array_config/config/qmc6309/sensor_array_params.json",
+    "original_sha256": "aa791f387335748452248ea485c3623d9b25c6a5fd347a67cab177b72d882b36",
+    "packaged_sha256": "aa791f387335748452248ea485c3623d9b25c6a5fd347a67cab177b72d882b36",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "calibration/config/affine_model_params.json",
+    "source": "RA-L/final_revision_20261028/step03_calibration/source_snapshot/src/sensor_array_config/sensor_array_config/config/qmc6309/affine_model_params.json",
+    "original_sha256": "82dea02d514f4c9160dd3d3bbf699e40f482730e2a2c8e47e69d561372c8a6f9",
+    "packaged_sha256": "82dea02d514f4c9160dd3d3bbf699e40f482730e2a2c8e47e69d561372c8a6f9",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "calibration/reference_results/summary.json",
+    "source": "RA-L/final_revision_20261028/step03_calibration/results/summary.json",
+    "original_sha256": "28fe9f05f963e405732f35e9eefee02c2072af8c9ef8897c723f0f396818f76c",
+    "packaged_sha256": "28fe9f05f963e405732f35e9eefee02c2072af8c9ef8897c723f0f396818f76c",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "calibration/reference_results/residual_consistency.alignment.json",
+    "source": "RA-L/final_revision_20261028/step03_calibration/results/residual_consistency.alignment.json",
+    "original_sha256": "7d589a699d0e10961982fcb8926210121b72364dc23e73f53927073c06b35e23",
+    "packaged_sha256": "7d589a699d0e10961982fcb8926210121b72364dc23e73f53927073c06b35e23",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "calibration/reference_results/per_condition.csv",
+    "source": "RA-L/final_revision_20261028/step03_calibration/results/per_condition.csv",
+    "original_sha256": "97504c3ee6f53daf872aca1959692b2382e4ce8c1a98600232f32b389f6dc9e4",
+    "packaged_sha256": "97504c3ee6f53daf872aca1959692b2382e4ce8c1a98600232f32b389f6dc9e4",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "calibration/reference_results/affine_model_params_refit.json",
+    "source": "RA-L/final_revision_20261028/step03_calibration/results/affine_model_params_refit.json",
+    "original_sha256": "8bb59b1f5bb0360ee8b1e5728a38b120ff9766c648b5cd12f709d944e3698241",
+    "packaged_sha256": "8bb59b1f5bb0360ee8b1e5728a38b120ff9766c648b5cd12f709d944e3698241",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "calibration/reference_results/per_sample.csv",
+    "source": "RA-L/final_revision_20261028/step03_calibration/results/per_sample.csv",
+    "original_sha256": "4210217cb0b83d731e819b87843e5381ea14ac00b23da903053bbc2b1cdf1c59",
+    "packaged_sha256": "4210217cb0b83d731e819b87843e5381ea14ac00b23da903053bbc2b1cdf1c59",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "calibration/reference_results/residual_consistency.pdf",
+    "source": "RA-L/final_revision_20261028/step03_calibration/results/residual_consistency.pdf",
+    "original_sha256": "da6e32609ec3c6e1880ffe8baa1023f9b0158cf1d57fcc006f81c253e34910be",
+    "packaged_sha256": "da6e32609ec3c6e1880ffe8baa1023f9b0158cf1d57fcc006f81c253e34910be",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "calibration/reference_results/residual_consistency.png",
+    "source": "RA-L/final_revision_20261028/step03_calibration/results/residual_consistency.png",
+    "original_sha256": "b4caad987c1c778c3adb22dd9e07bbc3a88fe01135ccce742fa18251dd62c6cf",
+    "packaged_sha256": "b4caad987c1c778c3adb22dd9e07bbc3a88fe01135ccce742fa18251dd62c6cf",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "calibration/reference_results/residual_consistency.svg",
+    "source": "RA-L/final_revision_20261028/step03_calibration/results/residual_consistency.svg",
+    "original_sha256": "87b07b2bb01651e352411b2c12fa0300f1db0a62623813ca8a1e248d321a1495",
+    "packaged_sha256": "87b07b2bb01651e352411b2c12fa0300f1db0a62623813ca8a1e248d321a1495",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "calibration/reference_results/original_code_equivalence.json",
+    "source": "RA-L/final_revision_20261028/step03_calibration/results/original_code_equivalence.json",
+    "original_sha256": "8d5f15437e8c705466ea22cb15c6be12c56005691baed9c1fed2ca1afb09b443",
+    "packaged_sha256": "8d5f15437e8c705466ea22cb15c6be12c56005691baed9c1fed2ca1afb09b443",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "source_geometry/source_geometry.py",
+    "source": "remote_snapshot/geometry/src/gels_localization/simulation/gshape/source_geometry.py",
+    "original_sha256": "83d1c3eb55f45b6bd686a3e56e7c088c8f732176331cf822d9b4758bdfa6b558",
+    "packaged_sha256": "83d1c3eb55f45b6bd686a3e56e7c088c8f732176331cf822d9b4758bdfa6b558",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "source_geometry/simulation_core.py",
+    "source": "remote_snapshot/geometry/src/gels_localization/simulation/gshape/simulation_core.py",
+    "original_sha256": "1da3f837ca8efb68efa861983cf5a727c36004657bb64de750169339bf2ebb2b",
+    "packaged_sha256": "6d43a3ae092be00f31ad5185ea345b868d17712ecb6e19f0540d9d4e50086b9f",
+    "modified_for_packaging": true
+  },
+  {
+    "path": "source_geometry/run_gshape_sweep.py",
+    "source": "remote_snapshot/geometry/src/gels_localization/simulation/gshape/run_gshape_sweep.py",
+    "original_sha256": "7770212bbb0ba414cf806e77660797a9b493a6df87a3713a14cd899cae56df27",
+    "packaged_sha256": "2f8a6cd96e59d0092db617dea81584be6cfa9d16d9742f6a4070496f615d34ce",
+    "modified_for_packaging": true
+  },
+  {
+    "path": "source_geometry/run_trajectory_localization.py",
+    "source": "remote_snapshot/geometry/src/gels_localization/simulation/gshape/run_trajectory_localization.py",
+    "original_sha256": "81be3c1d17814c289ad7fce56414ef9c49cc2f6ab00e4a562ae55811f8cc53f9",
+    "packaged_sha256": "f6d27e3a2a79a187bb89ba90d09033f9ee1abdc18bdac3cc60357ea980c382a3",
+    "modified_for_packaging": true
+  },
+  {
+    "path": "source_geometry/plot_gshape_results.py",
+    "source": "remote_snapshot/geometry/src/gels_localization/simulation/gshape/plot_gshape_results.py",
+    "original_sha256": "e587f8b5c99c20634a2192050863a75910fb54e7e2270c71ba6916f9ba18d499",
+    "packaged_sha256": "e587f8b5c99c20634a2192050863a75910fb54e7e2270c71ba6916f9ba18d499",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "source_geometry/plot_trajectory_localization_2x5.py",
+    "source": "remote_snapshot/geometry/src/gels_localization/simulation/gshape/plot_trajectory_localization_2x5.py",
+    "original_sha256": "c7e962e3d7a3a825bacfa5b878a4a83e5e0dfc167cb66e8872e967695d78c164",
+    "packaged_sha256": "c7e962e3d7a3a825bacfa5b878a4a83e5e0dfc167cb66e8872e967695d78c164",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "source_geometry/vendor/maps_estimator.py",
+    "source": "remote_snapshot/geometry/src/gels_localization/scripts/maps_estimator.py",
+    "original_sha256": "0a5586ef0e31f732d62c078e735e1dbede7aed0e746c9a503e3a0d4354659415",
+    "packaged_sha256": "8a9276204b5704d52bdd626528ec4f5d5605cb2c806ca33b58f74614354135f2",
+    "modified_for_packaging": true
+  },
+  {
+    "path": "source_geometry/vendor/mag_dipole_model.py",
+    "source": "remote_snapshot/geometry/src/gels_localization/scripts/mag_dipole_model.py",
+    "original_sha256": "3e18d504fd98e4256ce284ce08f229a54b06a2c7ad54179e7619020550a3b677",
+    "packaged_sha256": "3e18d504fd98e4256ce284ce08f229a54b06a2c7ad54179e7619020550a3b677",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "source_geometry/vendor/kabsch_solver.py",
+    "source": "remote_snapshot/geometry/src/gels_localization/scripts/kabsch_solver.py",
+    "original_sha256": "f29d576797fd82b0e45e4066d406e44fbf9f1c60693c89217cd3190286b46f98",
+    "packaged_sha256": "f29d576797fd82b0e45e4066d406e44fbf9f1c60693c89217cd3190286b46f98",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "source_geometry/vendor/sensor_array_config/__init__.py",
+    "source": "remote_snapshot/geometry/src/sensor_array_config/sensor_array_config/__init__.py",
+    "original_sha256": "519739fb70805c0b6e3780f244cdb59ce510e2734653f01e5ac420706742698f",
+    "packaged_sha256": "519739fb70805c0b6e3780f244cdb59ce510e2734653f01e5ac420706742698f",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "source_geometry/vendor/sensor_array_config/base.py",
+    "source": "remote_snapshot/geometry/src/sensor_array_config/sensor_array_config/base.py",
+    "original_sha256": "5db0c06c318ebaeb9e5858be6aa217a413d7722c226f120aeebb4785bdbc8514",
+    "packaged_sha256": "5db0c06c318ebaeb9e5858be6aa217a413d7722c226f120aeebb4785bdbc8514",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "source_geometry/vendor/sensor_array_config/config/qmc6309/affine_model_params.json",
+    "source": "remote_snapshot/geometry/src/sensor_array_config/sensor_array_config/config/qmc6309/affine_model_params.json",
+    "original_sha256": "82dea02d514f4c9160dd3d3bbf699e40f482730e2a2c8e47e69d561372c8a6f9",
+    "packaged_sha256": "82dea02d514f4c9160dd3d3bbf699e40f482730e2a2c8e47e69d561372c8a6f9",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "source_geometry/vendor/sensor_array_config/config/qmc6309/calibration_manifest.yaml",
+    "source": "remote_snapshot/geometry/src/sensor_array_config/sensor_array_config/config/qmc6309/calibration_manifest.yaml",
+    "original_sha256": "83b97d1e699c0c86791744cd3678593ea63165d1f364784e78ccc2fa8a0c50f7",
+    "packaged_sha256": "83b97d1e699c0c86791744cd3678593ea63165d1f364784e78ccc2fa8a0c50f7",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "source_geometry/vendor/sensor_array_config/config/qmc6309/sensor_array_params.json",
+    "source": "remote_snapshot/geometry/src/sensor_array_config/sensor_array_config/config/qmc6309/sensor_array_params.json",
+    "original_sha256": "aa791f387335748452248ea485c3623d9b25c6a5fd347a67cab177b72d882b36",
+    "packaged_sha256": "aa791f387335748452248ea485c3623d9b25c6a5fd347a67cab177b72d882b36",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "source_geometry/vendor/sensor_array_config/config/qmc6309/sensor_calibration.yaml",
+    "source": "remote_snapshot/geometry/src/sensor_array_config/sensor_array_config/config/qmc6309/sensor_calibration.yaml",
+    "original_sha256": "9a94a405da99958e2865403acecefea11f418e9ce7bdf14d10a98bb002f76e3e",
+    "packaged_sha256": "9a94a405da99958e2865403acecefea11f418e9ce7bdf14d10a98bb002f76e3e",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "source_geometry/vendor/sensor_array_config/qmc6309.py",
+    "source": "remote_snapshot/geometry/src/sensor_array_config/sensor_array_config/qmc6309.py",
+    "original_sha256": "6bb09489bb34fcc382001d47d92f22f947eb23f1ba91ae8a1ebe3e4436b12664",
+    "packaged_sha256": "6bb09489bb34fcc382001d47d92f22f947eb23f1ba91ae8a1ebe3e4436b12664",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "distance/vendor/maps_estimator.py",
+    "source": "remote_snapshot/distance/src/gels_localization/scripts/maps_estimator.py",
+    "original_sha256": "0a5586ef0e31f732d62c078e735e1dbede7aed0e746c9a503e3a0d4354659415",
+    "packaged_sha256": "8a9276204b5704d52bdd626528ec4f5d5605cb2c806ca33b58f74614354135f2",
+    "modified_for_packaging": true
+  },
+  {
+    "path": "distance/vendor/mag_dipole_model.py",
+    "source": "remote_snapshot/distance/src/gels_localization/scripts/mag_dipole_model.py",
+    "original_sha256": "3e18d504fd98e4256ce284ce08f229a54b06a2c7ad54179e7619020550a3b677",
+    "packaged_sha256": "3e18d504fd98e4256ce284ce08f229a54b06a2c7ad54179e7619020550a3b677",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "distance/vendor/kabsch_solver.py",
+    "source": "remote_snapshot/distance/src/gels_localization/scripts/kabsch_solver.py",
+    "original_sha256": "f29d576797fd82b0e45e4066d406e44fbf9f1c60693c89217cd3190286b46f98",
+    "packaged_sha256": "f29d576797fd82b0e45e4066d406e44fbf9f1c60693c89217cd3190286b46f98",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "distance/vendor/sensor_array_config/__init__.py",
+    "source": "remote_snapshot/distance/src/sensor_array_config/sensor_array_config/__init__.py",
+    "original_sha256": "519739fb70805c0b6e3780f244cdb59ce510e2734653f01e5ac420706742698f",
+    "packaged_sha256": "519739fb70805c0b6e3780f244cdb59ce510e2734653f01e5ac420706742698f",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "distance/vendor/sensor_array_config/base.py",
+    "source": "remote_snapshot/distance/src/sensor_array_config/sensor_array_config/base.py",
+    "original_sha256": "5db0c06c318ebaeb9e5858be6aa217a413d7722c226f120aeebb4785bdbc8514",
+    "packaged_sha256": "5db0c06c318ebaeb9e5858be6aa217a413d7722c226f120aeebb4785bdbc8514",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "distance/vendor/sensor_array_config/config/qmc6309/affine_model_params.json",
+    "source": "remote_snapshot/distance/src/sensor_array_config/sensor_array_config/config/qmc6309/affine_model_params.json",
+    "original_sha256": "82dea02d514f4c9160dd3d3bbf699e40f482730e2a2c8e47e69d561372c8a6f9",
+    "packaged_sha256": "82dea02d514f4c9160dd3d3bbf699e40f482730e2a2c8e47e69d561372c8a6f9",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "distance/vendor/sensor_array_config/config/qmc6309/calibration_manifest.yaml",
+    "source": "remote_snapshot/distance/src/sensor_array_config/sensor_array_config/config/qmc6309/calibration_manifest.yaml",
+    "original_sha256": "83b97d1e699c0c86791744cd3678593ea63165d1f364784e78ccc2fa8a0c50f7",
+    "packaged_sha256": "83b97d1e699c0c86791744cd3678593ea63165d1f364784e78ccc2fa8a0c50f7",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "distance/vendor/sensor_array_config/config/qmc6309/sensor_array_params.json",
+    "source": "remote_snapshot/distance/src/sensor_array_config/sensor_array_config/config/qmc6309/sensor_array_params.json",
+    "original_sha256": "aa791f387335748452248ea485c3623d9b25c6a5fd347a67cab177b72d882b36",
+    "packaged_sha256": "aa791f387335748452248ea485c3623d9b25c6a5fd347a67cab177b72d882b36",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "distance/vendor/sensor_array_config/config/qmc6309/sensor_calibration.yaml",
+    "source": "remote_snapshot/distance/src/sensor_array_config/sensor_array_config/config/qmc6309/sensor_calibration.yaml",
+    "original_sha256": "9a94a405da99958e2865403acecefea11f418e9ce7bdf14d10a98bb002f76e3e",
+    "packaged_sha256": "9a94a405da99958e2865403acecefea11f418e9ce7bdf14d10a98bb002f76e3e",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "distance/vendor/sensor_array_config/qmc6309.py",
+    "source": "remote_snapshot/distance/src/sensor_array_config/sensor_array_config/qmc6309.py",
+    "original_sha256": "6bb09489bb34fcc382001d47d92f22f947eb23f1ba91ae8a1ebe3e4436b12664",
+    "packaged_sha256": "6bb09489bb34fcc382001d47d92f22f947eb23f1ba91ae8a1ebe3e4436b12664",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "source_geometry/config/gshape_main.yaml",
+    "source": "remote_snapshot/geometry/src/gels_localization/simulation/gshape/config/gshape_main.yaml",
+    "original_sha256": "aaeda07fd8cdbd2f7ff4dc8629452dc3b3ce821d569e5ae7efa57ef17df150c6",
+    "packaged_sha256": "8f09a75595ee63f89af94578639f772ce1e582d20800af91778f5a79ad9a51f2",
+    "modified_for_packaging": true
+  },
+  {
+    "path": "source_geometry/reference_results/gshape_main/config_snapshot.yaml",
+    "source": "remote_snapshot/geometry/src/gels_localization/simulation/gshape/results/gshape_main/config_snapshot.yaml",
+    "original_sha256": "9af8090780e0b739a742b6f9826802d282cb40feb32b16060e2f370117a1559b",
+    "packaged_sha256": "9af8090780e0b739a742b6f9826802d282cb40feb32b16060e2f370117a1559b",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "source_geometry/reference_results/gshape_main/localization_errors.csv",
+    "source": "remote_snapshot/geometry/src/gels_localization/simulation/gshape/results/gshape_main/localization_errors.csv",
+    "original_sha256": "fe400393e055d0a197a51a025da11eab6474e5ec4c9cea3ea9b04a78622b4015",
+    "packaged_sha256": "fe400393e055d0a197a51a025da11eab6474e5ec4c9cea3ea9b04a78622b4015",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "source_geometry/reference_results/gshape_main/reproducibility_verification.json",
+    "source": "remote_snapshot/geometry/src/gels_localization/simulation/gshape/results/gshape_main/reproducibility_verification.json",
+    "original_sha256": "4f1a74a6a27ac12e14fd1d4f1f81af5e0681815c88db49ef4a6d71285d357076",
+    "packaged_sha256": "4f1a74a6a27ac12e14fd1d4f1f81af5e0681815c88db49ef4a6d71285d357076",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "source_geometry/reference_results/gshape_main/source_configurations.csv",
+    "source": "remote_snapshot/geometry/src/gels_localization/simulation/gshape/results/gshape_main/source_configurations.csv",
+    "original_sha256": "980c8ee478a2f0050392f1e8b8a8c7001a3d3138c248238fbdea1c0578495f55",
+    "packaged_sha256": "980c8ee478a2f0050392f1e8b8a8c7001a3d3138c248238fbdea1c0578495f55",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "source_geometry/reference_results/gshape_main/summary_by_gshape.csv",
+    "source": "remote_snapshot/geometry/src/gels_localization/simulation/gshape/results/gshape_main/summary_by_gshape.csv",
+    "original_sha256": "8531799614b8e53b82e2e981c9f8b4f20b1de8a80e7b2a8cd3a36d4a4b8d8c8b",
+    "packaged_sha256": "8531799614b8e53b82e2e981c9f8b4f20b1de8a80e7b2a8cd3a36d4a4b8d8c8b",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "source_geometry/reference_results/gshape_main/target_error_summary.csv",
+    "source": "remote_snapshot/geometry/src/gels_localization/simulation/gshape/results/gshape_main/target_error_summary.csv",
+    "original_sha256": "17dcd0b0f3c88c723e6736a08c6093216734cad27f611ac7e338b7af71bc2198",
+    "packaged_sha256": "17dcd0b0f3c88c723e6736a08c6093216734cad27f611ac7e338b7af71bc2198",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "source_geometry/reference_results/gshape_main/target_poses.csv",
+    "source": "remote_snapshot/geometry/src/gels_localization/simulation/gshape/results/gshape_main/target_poses.csv",
+    "original_sha256": "44d06732a9bf1b632a39c5c0631cc2502227c652c2ec09dd61331a9ecb428f20",
+    "packaged_sha256": "44d06732a9bf1b632a39c5c0631cc2502227c652c2ec09dd61331a9ecb428f20",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "source_geometry/config/trajectory_localization.yaml",
+    "source": "remote_snapshot/geometry/src/gels_localization/simulation/gshape/config/trajectory_localization.yaml",
+    "original_sha256": "cd4e34c43cffe6e68579df18630a1b0a9594d87e6854948ae5754a02524179eb",
+    "packaged_sha256": "14ff6a207825370eb5d9258eab68849f15ebf89894cb43827fe5a33d5e1f200d",
+    "modified_for_packaging": true
+  },
+  {
+    "path": "source_geometry/reference_results/trajectory_localization/config_snapshot.yaml",
+    "source": "remote_snapshot/geometry/src/gels_localization/simulation/gshape/results/trajectory_localization/config_snapshot.yaml",
+    "original_sha256": "6446741f437dbe40f0c644490bd062c0ae88d2a42648cca5d0293dba1aff75b4",
+    "packaged_sha256": "6446741f437dbe40f0c644490bd062c0ae88d2a42648cca5d0293dba1aff75b4",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "source_geometry/reference_results/trajectory_localization/localization_errors.csv",
+    "source": "remote_snapshot/geometry/src/gels_localization/simulation/gshape/results/trajectory_localization/localization_errors.csv",
+    "original_sha256": "bb9722819ced243085a7808f4550123fb14ec490efac057ec65e4932cbed1f7c",
+    "packaged_sha256": "bb9722819ced243085a7808f4550123fb14ec490efac057ec65e4932cbed1f7c",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "source_geometry/reference_results/trajectory_localization/reproducibility_verification.json",
+    "source": "remote_snapshot/geometry/src/gels_localization/simulation/gshape/results/trajectory_localization/reproducibility_verification.json",
+    "original_sha256": "8f801f0847138388e58120b46a48329ac7062f932e9f8a543e1b5c2f15a51f96",
+    "packaged_sha256": "8f801f0847138388e58120b46a48329ac7062f932e9f8a543e1b5c2f15a51f96",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "source_geometry/reference_results/trajectory_localization/source_states.csv",
+    "source": "remote_snapshot/geometry/src/gels_localization/simulation/gshape/results/trajectory_localization/source_states.csv",
+    "original_sha256": "571b915e6f885ee6a03dbdc9577405498d684d411696d34a80e4a3c9dee8e6ff",
+    "packaged_sha256": "571b915e6f885ee6a03dbdc9577405498d684d411696d34a80e4a3c9dee8e6ff",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "source_geometry/reference_results/trajectory_localization/summary_by_state.csv",
+    "source": "remote_snapshot/geometry/src/gels_localization/simulation/gshape/results/trajectory_localization/summary_by_state.csv",
+    "original_sha256": "6d43ce65f8a998bd9a0b141139731449f031abf65cc8f52e90f0e2c36bc6fe2c",
+    "packaged_sha256": "6d43ce65f8a998bd9a0b141139731449f031abf65cc8f52e90f0e2c36bc6fe2c",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "source_geometry/reference_results/trajectory_localization/target_error_summary.csv",
+    "source": "remote_snapshot/geometry/src/gels_localization/simulation/gshape/results/trajectory_localization/target_error_summary.csv",
+    "original_sha256": "3ebd945c978ddc409654a20166f0969eb5ee62be2bc21c85f49967b34e88bcfc",
+    "packaged_sha256": "3ebd945c978ddc409654a20166f0969eb5ee62be2bc21c85f49967b34e88bcfc",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "source_geometry/reference_results/trajectory_localization/target_poses.csv",
+    "source": "remote_snapshot/geometry/src/gels_localization/simulation/gshape/results/trajectory_localization/target_poses.csv",
+    "original_sha256": "5b7fd5b365f3a972e14d69d08b5a73f04936caf1000d08a42324185996c4c9e1",
+    "packaged_sha256": "5b7fd5b365f3a972e14d69d08b5a73f04936caf1000d08a42324185996c4c9e1",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "source_geometry/reference_results/trajectory_localization/trajectory_localization_3x5_paper.pdf",
+    "source": "remote_snapshot/geometry/src/gels_localization/simulation/gshape/results/trajectory_localization/trajectory_localization_3x5_paper.pdf",
+    "original_sha256": "3e98e6e15200a07a570102dd370b9a7abb75658a0726df3512a8b97458aeafd3",
+    "packaged_sha256": "3e98e6e15200a07a570102dd370b9a7abb75658a0726df3512a8b97458aeafd3",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "source_geometry/inputs/moveit_frustum_search.json",
+    "source": "remote_snapshot/geometry/src/gels_localization/simulation/gshape/results/moveit_frustum_search/moveit_frustum_search.json",
+    "original_sha256": "e95ec88e922d70e0598959c2d73e30e6c66f8eb8e03efaf65317e36f8f80b631",
+    "packaged_sha256": "e95ec88e922d70e0598959c2d73e30e6c66f8eb8e03efaf65317e36f8f80b631",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "distance/run_distance_sweep.py",
+    "source": "remote_snapshot/distance/src/gels_localization/simulation/initialization_sensitivity/distance_sweep_20260906/run_distance_sweep.py",
+    "original_sha256": "3e94ff9602738faf859ccecbfd149a838885faae1672d6d4d7c513d517babfb0",
+    "packaged_sha256": "e2efeb5bfba4ef38419aaa8d66822c2ab1362f2f3441fa0adf621607efb2cd4b",
+    "modified_for_packaging": true
+  },
+  {
+    "path": "distance/plot_results.py",
+    "source": "remote_snapshot/distance/src/gels_localization/simulation/initialization_sensitivity/distance_sweep_20260906/plot_results.py",
+    "original_sha256": "1aec75d23ec62c811bde763f9785100e77aee7b5bbdc28fbd609a96adafb6b5c",
+    "packaged_sha256": "dd576a394d2b71dc67561f2cfa1ca7cc45c32d34e28f16293fb934e16f55a8a1",
+    "modified_for_packaging": true
+  },
+  {
+    "path": "distance/config.json",
+    "source": "remote_snapshot/distance/src/gels_localization/simulation/initialization_sensitivity/distance_sweep_20260906/config.json",
+    "original_sha256": "30bb70ae7a3f90f63d35af5b945653080f9cf2be65da43c7cd18473978f030cf",
+    "packaged_sha256": "ef5e9b903e66ad5d1244877ed0e863dcbbd75b898183c5791c8607156a8ddd7a",
+    "modified_for_packaging": true
+  },
+  {
+    "path": "distance/reference/simulation_core.py",
+    "source": "remote_snapshot/distance/src/gels_localization/simulation/gshape/simulation_core.py",
+    "original_sha256": "1da3f837ca8efb68efa861983cf5a727c36004657bb64de750169339bf2ebb2b",
+    "packaged_sha256": "728afce112ede7a279808c00178d7843721e0a8948811e03a2c477c7d7ada032",
+    "modified_for_packaging": true
+  },
+  {
+    "path": "distance/reference_results/ray_geometry.csv",
+    "source": "remote_snapshot/distance/src/gels_localization/simulation/initialization_sensitivity/distance_sweep_20260906/results_v1/ray_geometry.csv",
+    "original_sha256": "4a12089f4162a95c28f845d113ac5e8a248e0ba149a5b1d6cfc8bcbd1adc9cde",
+    "packaged_sha256": "4a12089f4162a95c28f845d113ac5e8a248e0ba149a5b1d6cfc8bcbd1adc9cde",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "distance/reference_results/simulation_summary.csv",
+    "source": "remote_snapshot/distance/src/gels_localization/simulation/initialization_sensitivity/distance_sweep_20260906/results_v1/simulation_summary.csv",
+    "original_sha256": "a66bbc96f8e89896aa1c977a2cbe4fc63be5b741e86dd61b821b75de72a63f41",
+    "packaged_sha256": "a66bbc96f8e89896aa1c977a2cbe4fc63be5b741e86dd61b821b75de72a63f41",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "distance/reference_results/simulation_trials.csv.gz",
+    "source": "remote_snapshot/distance/src/gels_localization/simulation/initialization_sensitivity/distance_sweep_20260906/results_v1/simulation_trials.csv.gz",
+    "original_sha256": "9405abab5748f019bf7b8fdfe0110521fcc661c32bb4d84c71d5bb7d5f8dd7c6",
+    "packaged_sha256": "9405abab5748f019bf7b8fdfe0110521fcc661c32bb4d84c71d5bb7d5f8dd7c6",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "distance/reference_results/validation.json",
+    "source": "remote_snapshot/distance/src/gels_localization/simulation/initialization_sensitivity/distance_sweep_20260906/results_v1/validation.json",
+    "original_sha256": "db133ac3a340fa77d51e4f4f4f39c631eaee36314eb24e122f387919026f78dc",
+    "packaged_sha256": "d9b8fdc55d4e3d523801a88bae2ece760706b715c1273d62674f198373f73ae3",
+    "modified_for_packaging": true
+  },
+  {
+    "path": "distance/paper_figure/distance_extension_quality_field_fit.csv",
+    "source": "RA-L/supp/distance_extension/distance_extension_quality_field_fit.csv",
+    "original_sha256": "7c39bf6b46b8f5ca33873a56f57cf4174f376e43c9894a8ad521ba167c7bb15a",
+    "packaged_sha256": "7c39bf6b46b8f5ca33873a56f57cf4174f376e43c9894a8ad521ba167c7bb15a",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "distance/paper_figure/distance_extension_quality_nominal20G.csv",
+    "source": "RA-L/supp/distance_extension/distance_extension_quality_nominal20G.csv",
+    "original_sha256": "1acdfbe7c8d2c53bc1ec5cfac91d37ae304e92a4c8ab7e53b3753d42feb8b173",
+    "packaged_sha256": "1acdfbe7c8d2c53bc1ec5cfac91d37ae304e92a4c8ab7e53b3753d42feb8b173",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "distance/paper_figure/supp_distance_extension.tex",
+    "source": "RA-L/supp/distance_extension/supp_distance_extension.tex",
+    "original_sha256": "f58ea994a09927c1a282a530f1622baa3280fbd5eb7b90af3a4663814f70e15f",
+    "packaged_sha256": "f58ea994a09927c1a282a530f1622baa3280fbd5eb7b90af3a4663814f70e15f",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "distance/paper_figure/supp_distance_extension.pdf",
+    "source": "RA-L/supp/supp_distance_extension.pdf",
+    "original_sha256": "9c50838ca1565f6ac9e1619cc95ecb589d0ed45309831e1f65392611b0e14703",
+    "packaged_sha256": "9c50838ca1565f6ac9e1619cc95ecb589d0ed45309831e1f65392611b0e14703",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/run_circle.py",
+    "source": "RA-L/simulation/tdm_circle_12sensor/run_circle.py",
+    "original_sha256": "a49d243b3a0a6d71a40c285244a33e6c9a34ac5843879f292d5521f1a43cfc18",
+    "packaged_sha256": "a49d243b3a0a6d71a40c285244a33e6c9a34ac5843879f292d5521f1a43cfc18",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/render_figures.py",
+    "source": "RA-L/simulation/tdm_circle_12sensor/render_figures.py",
+    "original_sha256": "8933d696748bec6d0220b70be19233bd87ebb1540d80343d2bee0f7064f36b1b",
+    "packaged_sha256": "31f468c517b85c83fa32cc9b652724c3442c8f3ab82eae957f9bab7487252bfa",
+    "modified_for_packaging": true
+  },
+  {
+    "path": "tdm_motion/config.json",
+    "source": "RA-L/simulation/tdm_circle_12sensor/config.json",
+    "original_sha256": "2f288594e604267144828abf199ef61feaacb6b79cbf1d6f68824ad48a56a2e5",
+    "packaged_sha256": "2f288594e604267144828abf199ef61feaacb6b79cbf1d6f68824ad48a56a2e5",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/requirements.txt",
+    "source": "RA-L/simulation/tdm_circle_12sensor/requirements.txt",
+    "original_sha256": "a83a2a4ed7ab2e022b9b8a83cfa2b8cf52cc243006c597e8b96f90a8365590ac",
+    "packaged_sha256": "a83a2a4ed7ab2e022b9b8a83cfa2b8cf52cc243006c597e8b96f90a8365590ac",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference/config.json",
+    "source": "RA-L/simulation/tdm_circle_12sensor/reference/config.json",
+    "original_sha256": "05584c88de8d73bf3d2ca0238b472bd7704ffd4df0445476a27e86b707014e86",
+    "packaged_sha256": "05584c88de8d73bf3d2ca0238b472bd7704ffd4df0445476a27e86b707014e86",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference/core.py",
+    "source": "RA-L/simulation/tdm_circle_12sensor/reference/core.py",
+    "original_sha256": "047648c61a6bf63cfd9c4249abad11526b3b34b0c58419d59b831d968308b563",
+    "packaged_sha256": "047648c61a6bf63cfd9c4249abad11526b3b34b0c58419d59b831d968308b563",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference/inputs/experiment_details_snapshot.md",
+    "source": "RA-L/simulation/tdm_circle_12sensor/reference/inputs/experiment_details_snapshot.md",
+    "original_sha256": "1edc30dc61e6643077babf6c4c81bcabaaa70d7e49ac5526b2e0fe2369380efc",
+    "packaged_sha256": "1edc30dc61e6643077babf6c4c81bcabaaa70d7e49ac5526b2e0fe2369380efc",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference/inputs/fig6_input_provenance.json",
+    "source": "RA-L/simulation/tdm_circle_12sensor/reference/inputs/fig6_input_provenance.json",
+    "original_sha256": "0e3ea440fbbeebe0855457fb1e23e6465e2840c384b459e0725e41294dabf4f8",
+    "packaged_sha256": "d32f68a04981ef81e0c1b4ffb539e960ac685513690c213375f6086b35d407b3",
+    "modified_for_packaging": true
+  },
+  {
+    "path": "tdm_motion/reference/inputs/fig6_source_configuration.csv",
+    "source": "RA-L/simulation/tdm_circle_12sensor/reference/inputs/fig6_source_configuration.csv",
+    "original_sha256": "0f9837f11121eda85c706539d3eadbfb877465a95feafe39ab50fbe875bbdc7b",
+    "packaged_sha256": "0f9837f11121eda85c706539d3eadbfb877465a95feafe39ab50fbe875bbdc7b",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference/inputs/fig6_target_poses.csv",
+    "source": "RA-L/simulation/tdm_circle_12sensor/reference/inputs/fig6_target_poses.csv",
+    "original_sha256": "4962f7ce7e97b3aee9ef4798761d05053ce851b688aecabc9ab9f8a4fe492e46",
+    "packaged_sha256": "4962f7ce7e97b3aee9ef4798761d05053ce851b688aecabc9ab9f8a4fe492e46",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference/inputs/manuscript_timing_snapshot.txt",
+    "source": "RA-L/simulation/tdm_circle_12sensor/reference/inputs/manuscript_timing_snapshot.txt",
+    "original_sha256": "1aafacc9a0c7ba37ea1b99f2fe4218fbbf75742c80eee370a6358a39f60f87b3",
+    "packaged_sha256": "1aafacc9a0c7ba37ea1b99f2fe4218fbbf75742c80eee370a6358a39f60f87b3",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference/inputs/reference_array_config.yaml",
+    "source": "RA-L/simulation/tdm_circle_12sensor/reference/inputs/reference_array_config.yaml",
+    "original_sha256": "63b10c350b7ced946adb893974839831fbca8968eb42b71dd152789a0db1468a",
+    "packaged_sha256": "63b10c350b7ced946adb893974839831fbca8968eb42b71dd152789a0db1468a",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference/plotting/provenance.json",
+    "source": "RA-L/simulation/tdm_circle_12sensor/reference/plotting/provenance.json",
+    "original_sha256": "b7bf062a40f4026ce6a648413b5faa27a6b2dd39f4dc0a7ff56598e78c73f8ec",
+    "packaged_sha256": "b7bf062a40f4026ce6a648413b5faa27a6b2dd39f4dc0a7ff56598e78c73f8ec",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference/plotting/zlab_electromagnet_excerpt.py.txt",
+    "source": "RA-L/simulation/tdm_circle_12sensor/reference/plotting/zlab_electromagnet_excerpt.py.txt",
+    "original_sha256": "d6cea0f925b1713260fb781b80309323f0b14d06ac42e68662fc2d6e2f4d4aba",
+    "packaged_sha256": "d6cea0f925b1713260fb781b80309323f0b14d06ac42e68662fc2d6e2f4d4aba",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference/vendor/kabsch_solver.py",
+    "source": "RA-L/simulation/tdm_circle_12sensor/reference/vendor/kabsch_solver.py",
+    "original_sha256": "1c9541e91b36c42b9597dbb57690d4825cedc14bf23e390e52080215159fc0d5",
+    "packaged_sha256": "1c9541e91b36c42b9597dbb57690d4825cedc14bf23e390e52080215159fc0d5",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference/vendor/mag_dipole_model.py",
+    "source": "RA-L/simulation/tdm_circle_12sensor/reference/vendor/mag_dipole_model.py",
+    "original_sha256": "8e5aca104d962cb0d67e9778d79cbde5079260d6b2aa0f1497f7120ee99319fc",
+    "packaged_sha256": "8e5aca104d962cb0d67e9778d79cbde5079260d6b2aa0f1497f7120ee99319fc",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference/vendor/maps_estimator.py",
+    "source": "RA-L/simulation/tdm_circle_12sensor/reference/vendor/maps_estimator.py",
+    "original_sha256": "e94547db59a6c48f22729419463442f4461a111d0cee8481ccf45b2a90394e12",
+    "packaged_sha256": "e94547db59a6c48f22729419463442f4461a111d0cee8481ccf45b2a90394e12",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference/vendor/provenance.json",
+    "source": "RA-L/simulation/tdm_circle_12sensor/reference/vendor/provenance.json",
+    "original_sha256": "df6904d97ee0c94b7d754d9818965fc8ab8cb7089afc5ba90185bf9cf763cb72",
+    "packaged_sha256": "df6904d97ee0c94b7d754d9818965fc8ab8cb7089afc5ba90185bf9cf763cb72",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/CC_ideal_rho.csv",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/CC_ideal_rho.csv",
+    "original_sha256": "4d485cf43900d043016f2241fcb70d7c84e26bfc28c2e7dd6dd3098468784271",
+    "packaged_sha256": "4d485cf43900d043016f2241fcb70d7c84e26bfc28c2e7dd6dd3098468784271",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/CC_sequential_sensor.csv",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/CC_sequential_sensor.csv",
+    "original_sha256": "b91f15947d8fc30659065d22d4b170c40bd8dc69867c94128cabba3a155674ba",
+    "packaged_sha256": "b91f15947d8fc30659065d22d4b170c40bd8dc69867c94128cabba3a155674ba",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/CC_source_slot_only.csv",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/CC_source_slot_only.csv",
+    "original_sha256": "e8d05a6e83b967d6977ac7fb6de018d428c492cb5518a93a3d8b537b6cbaa8e6",
+    "packaged_sha256": "e8d05a6e83b967d6977ac7fb6de018d428c492cb5518a93a3d8b537b6cbaa8e6",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/CC_synchronous.csv",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/CC_synchronous.csv",
+    "original_sha256": "f27a1a59c34a3b8ee659a3dd988c51a1265292f6ab531935063571a1399e7610",
+    "packaged_sha256": "f27a1a59c34a3b8ee659a3dd988c51a1265292f6ab531935063571a1399e7610",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/CV_ideal_rho.csv",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/CV_ideal_rho.csv",
+    "original_sha256": "7c1b1c69e8f448779f52f940fd383956c6836b9ed8d833e20c7dae9af3bf2df8",
+    "packaged_sha256": "7c1b1c69e8f448779f52f940fd383956c6836b9ed8d833e20c7dae9af3bf2df8",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/CV_sequential_sensor.csv",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/CV_sequential_sensor.csv",
+    "original_sha256": "c55aba95e711242d1e2e27cdaa1785e015a2df51b22cbcd892a3f18a8a3661dd",
+    "packaged_sha256": "c55aba95e711242d1e2e27cdaa1785e015a2df51b22cbcd892a3f18a8a3661dd",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/CV_source_slot_only.csv",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/CV_source_slot_only.csv",
+    "original_sha256": "fc40c50df20071c9a313c3e981982e4aa52b3e5df8f9cc868fab94b54eeb8cea",
+    "packaged_sha256": "fc40c50df20071c9a313c3e981982e4aa52b3e5df8f9cc868fab94b54eeb8cea",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/CV_synchronous.csv",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/CV_synchronous.csv",
+    "original_sha256": "73c4c1a9bf603d7b2f11a5528cb876c5d148d90322b865dd2ae7f6c5aa49c43b",
+    "packaged_sha256": "73c4c1a9bf603d7b2f11a5528cb876c5d148d90322b865dd2ae7f6c5aa49c43b",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/baseline_config_snapshot.json",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/baseline_config_snapshot.json",
+    "original_sha256": "05584c88de8d73bf3d2ca0238b472bd7704ffd4df0445476a27e86b707014e86",
+    "packaged_sha256": "05584c88de8d73bf3d2ca0238b472bd7704ffd4df0445476a27e86b707014e86",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/cases.csv",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/cases.csv",
+    "original_sha256": "ef2814d0c3bca74f2009fddbe1740d8aa43235a170e96d1e6c9c4546fb65ef03",
+    "packaged_sha256": "ef2814d0c3bca74f2009fddbe1740d8aa43235a170e96d1e6c9c4546fb65ef03",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/config_snapshot.json",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/config_snapshot.json",
+    "original_sha256": "2f288594e604267144828abf199ef61feaacb6b79cbf1d6f68824ad48a56a2e5",
+    "packaged_sha256": "2f288594e604267144828abf199ef61feaacb6b79cbf1d6f68824ad48a56a2e5",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/estimates.npz",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/estimates.npz",
+    "original_sha256": "84c95ce2b0721951c846d6fd55fedcfde88ff0f20fbc350b5a2f178e38a20d57",
+    "packaged_sha256": "84c95ce2b0721951c846d6fd55fedcfde88ff0f20fbc350b5a2f178e38a20d57",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/figures/CC_errorbars.csv",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/figures/CC_errorbars.csv",
+    "original_sha256": "5930e6a01d2769306b07e8a5317dcd0393067ec699630afd1a166708d1dc9403",
+    "packaged_sha256": "5930e6a01d2769306b07e8a5317dcd0393067ec699630afd1a166708d1dc9403",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/figures/CC_errorbars_0_10.csv",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/figures/CC_errorbars_0_10.csv",
+    "original_sha256": "eb38f08058400dd559ead525eb52c567a15a430693b4b5258baeb11b34342cd7",
+    "packaged_sha256": "eb38f08058400dd559ead525eb52c567a15a430693b4b5258baeb11b34342cd7",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/figures/CC_errorbars_log.csv",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/figures/CC_errorbars_log.csv",
+    "original_sha256": "8abce56e2082f1d4350eb420b28d2ef182f672b0cc2cd5cdf5fa4bdae289fdc5",
+    "packaged_sha256": "8abce56e2082f1d4350eb420b28d2ef182f672b0cc2cd5cdf5fa4bdae289fdc5",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/figures/CV_errorbars.csv",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/figures/CV_errorbars.csv",
+    "original_sha256": "acb748374e9877330eaa1ef6b86de8a190b3bbaa1b8e4d8e73c377fd25d7b98c",
+    "packaged_sha256": "acb748374e9877330eaa1ef6b86de8a190b3bbaa1b8e4d8e73c377fd25d7b98c",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/figures/CV_errorbars_0_10.csv",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/figures/CV_errorbars_0_10.csv",
+    "original_sha256": "b0535857f942d5f6d005f0b2bc3840a2710e28b86329e7af7c791dba7a76b876",
+    "packaged_sha256": "b0535857f942d5f6d005f0b2bc3840a2710e28b86329e7af7c791dba7a76b876",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/figures/CV_errorbars_log.csv",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/figures/CV_errorbars_log.csv",
+    "original_sha256": "fd59fd4a9d1047da3364cdb0fda5f3e96e456e968c0945d3788cf1cc7d747e84",
+    "packaged_sha256": "fd59fd4a9d1047da3364cdb0fda5f3e96e456e968c0945d3788cf1cc7d747e84",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/figures/dynamic_errors.pdf",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/figures/dynamic_errors.pdf",
+    "original_sha256": "1108822e56e08ca9b4bd8fd072ad19cd6f2c671c67e28012b2fd1d0ef4be8791",
+    "packaged_sha256": "1108822e56e08ca9b4bd8fd072ad19cd6f2c671c67e28012b2fd1d0ef4be8791",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/figures/dynamic_errors.png",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/figures/dynamic_errors.png",
+    "original_sha256": "408bddfaabec2a8fe6f3bb4658d3e51e2eefeb9ab17bcce9a1a0b03ea3ca0ade",
+    "packaged_sha256": "408bddfaabec2a8fe6f3bb4658d3e51e2eefeb9ab17bcce9a1a0b03ea3ca0ade",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/figures/dynamic_errors.tex",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/figures/dynamic_errors.tex",
+    "original_sha256": "b034c01058b256d10f19b3c0b54ad3227a528555c0f8c35807a9ed1374df44fb",
+    "packaged_sha256": "b034c01058b256d10f19b3c0b54ad3227a528555c0f8c35807a9ed1374df44fb",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/figures/errorbar_validation.json",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/figures/errorbar_validation.json",
+    "original_sha256": "48967dff22ca355588e0c919c4b7c5627646bddeaa437891dd291664491bb3e1",
+    "packaged_sha256": "48967dff22ca355588e0c919c4b7c5627646bddeaa437891dd291664491bb3e1",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/figures/layout_validation.json",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/figures/layout_validation.json",
+    "original_sha256": "7630bdd56c5be1b1f9de27941776e3c359f5be1a607e3f7990f5090a07cfdbb5",
+    "packaged_sha256": "7630bdd56c5be1b1f9de27941776e3c359f5be1a607e3f7990f5090a07cfdbb5",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/figures/sampling_diagnostics.pdf",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/figures/sampling_diagnostics.pdf",
+    "original_sha256": "dbb28d5bec20dfb512580f9be78664ab9cb2decabc303cf8c1051036fe4004fb",
+    "packaged_sha256": "dbb28d5bec20dfb512580f9be78664ab9cb2decabc303cf8c1051036fe4004fb",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/figures/sampling_diagnostics.png",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/figures/sampling_diagnostics.png",
+    "original_sha256": "3cadf1418987d1f4cb9ef568ae3b98e8bc828faab97614bdf37c30abf5441a0c",
+    "packaged_sha256": "3cadf1418987d1f4cb9ef568ae3b98e8bc828faab97614bdf37c30abf5441a0c",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/figures/sampling_diagnostics.tex",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/figures/sampling_diagnostics.tex",
+    "original_sha256": "0976bbe6b954a5c0baa1844da7a4ae4f1d012c89bb53d256316c591c582bcce3",
+    "packaged_sha256": "0976bbe6b954a5c0baa1844da7a4ae4f1d012c89bb53d256316c591c582bcce3",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/figures/zero_speed_baseline.csv",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/figures/zero_speed_baseline.csv",
+    "original_sha256": "2ddc0e6041275198042ad14cf8558ab0dd67f49f1ac9bd8a56520763214fedeb",
+    "packaged_sha256": "2ddc0e6041275198042ad14cf8558ab0dd67f49f1ac9bd8a56520763214fedeb",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/geometry.json",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/geometry.json",
+    "original_sha256": "f2783f39ccd72eb7a2a43f185188fbf26019aa1c36b44e72d5eb3b9cd84da3a8",
+    "packaged_sha256": "f2783f39ccd72eb7a2a43f185188fbf26019aa1c36b44e72d5eb3b9cd84da3a8",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/main_results_table.md",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/main_results_table.md",
+    "original_sha256": "faca7a1c0c57e45e8a3f851c5e451cb5f7c0f4f5cd7ab162a0a938bff1cf12f7",
+    "packaged_sha256": "faca7a1c0c57e45e8a3f851c5e451cb5f7c0f4f5cd7ab162a0a938bff1cf12f7",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/measurements.npz",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/measurements.npz",
+    "original_sha256": "51ba8fced03ee3bfa880f6bd1b70944b428faf9a3d840b18a3e0922976a18f30",
+    "packaged_sha256": "51ba8fced03ee3bfa880f6bd1b70944b428faf9a3d840b18a3e0922976a18f30",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/reference_trajectory.csv",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/reference_trajectory.csv",
+    "original_sha256": "2207b859ff067ed16b44b22c22047d4e05a7811ee0e7c1c505491ea83af0d0a3",
+    "packaged_sha256": "2207b859ff067ed16b44b22c22047d4e05a7811ee0e7c1c505491ea83af0d0a3",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/sources.csv",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/sources.csv",
+    "original_sha256": "4ae1d3780caebee588b9a864d82057d47ff2b39ea38a70fd16d14e340f928347",
+    "packaged_sha256": "4ae1d3780caebee588b9a864d82057d47ff2b39ea38a70fd16d14e340f928347",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/summary.csv",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/summary.csv",
+    "original_sha256": "ba691797f3e769422d6cb8214ae7f0332d983f762754cca91b3101c61ba50585",
+    "packaged_sha256": "ba691797f3e769422d6cb8214ae7f0332d983f762754cca91b3101c61ba50585",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/timing_profiles.json",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/timing_profiles.json",
+    "original_sha256": "f3f8545cc8566da5dfab418f103c665ad39443b5e8e10873295e43db07630006",
+    "packaged_sha256": "f3f8545cc8566da5dfab418f103c665ad39443b5e8e10873295e43db07630006",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "tdm_motion/reference_results/validation.json",
+    "source": "RA-L/simulation/tdm_circle_12sensor/results/validation.json",
+    "original_sha256": "65a4c36c315767346459722592cd59959c018ac1bb4cc58f196d2135ea40ace3",
+    "packaged_sha256": "65a4c36c315767346459722592cd59959c018ac1bb4cc58f196d2135ea40ace3",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "supplementary/references.bbl",
+    "source": "RA-L/.latex-build/supplementary_material.bbl",
+    "original_sha256": "f01ba4d5e40523b8b9fc4909cfc11cecf09c56de4956a11b49ff97b1bab4b683",
+    "packaged_sha256": "f01ba4d5e40523b8b9fc4909cfc11cecf09c56de4956a11b49ff97b1bab4b683",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "supplementary/figures/supp_source_geometry_sequence.pdf",
+    "source": "RA-L/supp/supp_source_geometry_sequence.pdf",
+    "original_sha256": "3e98e6e15200a07a570102dd370b9a7abb75658a0726df3512a8b97458aeafd3",
+    "packaged_sha256": "3e98e6e15200a07a570102dd370b9a7abb75658a0726df3512a8b97458aeafd3",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "supplementary/figures/supp_distance_extension.pdf",
+    "source": "RA-L/supp/supp_distance_extension.pdf",
+    "original_sha256": "9c50838ca1565f6ac9e1619cc95ecb589d0ed45309831e1f65392611b0e14703",
+    "packaged_sha256": "9c50838ca1565f6ac9e1619cc95ecb589d0ed45309831e1f65392611b0e14703",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "supplementary/figures/supp_tdm_motion.pdf",
+    "source": "RA-L/supp/supp_tdm_motion.pdf",
+    "original_sha256": "1108822e56e08ca9b4bd8fd072ad19cd6f2c671c67e28012b2fd1d0ef4be8791",
+    "packaged_sha256": "1108822e56e08ca9b4bd8fd072ad19cd6f2c671c67e28012b2fd1d0ef4be8791",
+    "modified_for_packaging": false
+  },
+  {
+    "path": "Supplementary.pdf",
+    "source": "RA-L/supplementary_material.pdf",
+    "original_sha256": "1a78399ed96f4954b5378ede32f3406fdbb8ff2b6b8cd485dbf16889254c44b2",
+    "packaged_sha256": "f832d1939e43c43894db59877eafcb541f9163ef60006659c282f8ca4d7773b1",
+    "modified_for_packaging": true
+  }
+]

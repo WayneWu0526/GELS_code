@@ -1,0 +1,72 @@
+{
+  "files": [
+    {
+      "path": "data/manual_x/manual_record_1V.csv",
+      "sha256": "0b94b525c9e8c10967847f9cc3d778c69618b6c90a0f86e355060afec8df03d2"
+    },
+    {
+      "path": "data/manual_x/manual_record_2V.csv",
+      "sha256": "e9a00fac5e1f830524b51cb63386dd21e3548fa7a2d8e78af9c994154fe8094f"
+    },
+    {
+      "path": "data/manual_x/manual_record_3V.csv",
+      "sha256": "50c03746f8d1cbb34bb53918e535c5c243e998c3d0ec4b0b85ae30909fb42467"
+    },
+    {
+      "path": "data/manual_x/manual_record_4V.csv",
+      "sha256": "f43996664998b3ef5e9fa8a604fb7019bc423d17f87c6c1651c4902d613815ba"
+    },
+    {
+      "path": "data/manual_x/manual_record_5V.csv",
+      "sha256": "839e7ded338f905caff287e7dd6fd50ca64a8ce492f7e14206598c767c46f2f7"
+    },
+    {
+      "path": "data/manual_y/manual_record_1V.csv",
+      "sha256": "cef5772c5f3d327767e1fac48059ed14949e3d3305d6b0d0568a4497cc3105b8"
+    },
+    {
+      "path": "data/manual_y/manual_record_2V.csv",
+      "sha256": "918e895fb379c4e73a7d01c6d5b3b9cef30d5e05bc9b7edae07f66914fdca90a"
+    },
+    {
+      "path": "data/manual_y/manual_record_3V.csv",
+      "sha256": "6bee64692a06335f700e10409aa2197a2feaddab4676426f21425b0d7ff67404"
+    },
+    {
+      "path": "data/manual_y/manual_record_4V.csv",
+      "sha256": "cb75a77c13d61ea66694c47ca4470cf326e7c24d191afecfc993a95c7fe5359e"
+    },
+    {
+      "path": "data/manual_y/manual_record_5V.csv",
+      "sha256": "d1fa7073011b2d078056c6164e54eb7062000dbd43df60adfdfd9b35c226555b"
+    },
+    {
+      "path": "data/manual_z/manual_record_1V.csv",
+      "sha256": "3984653fb122d572ad35479885779311b2f08cccd01f6be016456000deaf7688"
+    },
+    {
+      "path": "data/manual_z/manual_record_2V.csv",
+      "sha256": "a5f79e8eda9d41cc9bd4829a2797f004da75818eba50f534d466ca24dbab1207"
+    },
+    {
+      "path": "data/manual_z/manual_record_3V.csv",
+      "sha256": "3f3c1dc04da9266753d82a1bfa9d55654b26591960a69a069ffdabde432ee128"
+    },
+    {
+      "path": "data/manual_z/manual_record_4V.csv",
+      "sha256": "af5c7ae2d6f86671d90e9e5ca695acd2ff26a36c0928205e3b52a56836579b97"
+    },
+    {
+      "path": "data/manual_z/manual_record_5V.csv",
+      "sha256": "046d575e390e86c70ba3e29a021bacfeae821d66e573a03431016172d4c047d3"
+    },
+    {
+      "path": "config/affine_model_params.json",
+      "sha256": "82dea02d514f4c9160dd3d3bbf699e40f482730e2a2c8e47e69d561372c8a6f9"
+    },
+    {
+      "path": "config/sensor_array_params.json",
+      "sha256": "aa791f387335748452248ea485c3623d9b25c6a5fd347a67cab177b72d882b36"
+    }
+  ]
+}

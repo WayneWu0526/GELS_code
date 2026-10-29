@@ -1,0 +1,26 @@
+experiment:
+  label: moveit_trajectory_rectangular_workspace_localization_assumed_noise_unverified
+  random_seed: 20260825
+  noise_seed: 20260826
+  trajectory_results: inputs/moveit_frustum_search.json
+
+sources:
+  moment_magnitude_A_m2: 250.0
+  moment_axis_sign: 1.0
+  moment_provenance: assumed_equal_moments_along_em40250_positive_local_z
+  model_order: 1
+
+targets:
+  count: 200
+  center_offset_along_frustum_normal_m: 0.284
+  half_extent_m: [0.12, 0.12, 0.04]
+  minimum_z_m: 0.75
+  orientation_mode: random
+
+measurement:
+  trials_per_target: 30
+  noise_std_T: 5.0e-7
+  noise_provenance: internal_assumption_noise_analysis_rp_FIXED_NOISE_LEVEL_0.005_Gs
+
+output:
+  directory: results/trajectory_localization

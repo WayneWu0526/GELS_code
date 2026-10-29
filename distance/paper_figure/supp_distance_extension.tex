@@ -1,0 +1,57 @@
+\documentclass[tikz,border=0pt]{standalone}
+\usepackage{fix-cm}
+\usepackage{textcomp}
+\usepackage{pgfplots}
+\usepgfplotslibrary{fillbetween}
+\pgfplotsset{compat=1.18}
+\definecolor{nominal}{HTML}{1769AA}
+\definecolor{fitted}{HTML}{CF6827}
+\newcommand{\figfont}{\fontsize{8bp}{9.6bp}\selectfont}
+\pgfplotsset{paperaxis/.style={
+scale only axis,width=8.0cm,height=4.7cm,
+anchor=south west,
+tick label style={font=\figfont},label style={font=\figfont},
+title style={font=\figfont,at={(0,1)},anchor=south west,yshift=3pt},
+legend style={font=\figfont,draw=none,fill=white,inner sep=3pt},
+grid=major,grid style={gray!16},axis line style={gray!65},
+axis lines*=left,tick align=outside,
+xmin=200,xmax=805,xtick={200,400,600,800},xticklabels={200,400,600,800},
+xlabel={Mean source distance [mm]}
+}}
+\begin{document}
+\begin{tikzpicture}[every node/.style={font=\figfont}]
+\begin{axis}[paperaxis,at={(1.55cm,1.15cm)},
+title={(a) Position error},ylabel={Position error [mm]},
+ymode=log,ymin=4,ymax=1100,ytick={10,100,1000},yticklabels={10,100,1000},
+legend pos=south east]
+\addplot[name path=nomlo,draw=none,forget plot] table[x=distance_mm,y=position_error_mm_p10,col sep=comma]{distance_extension_quality_nominal20G.csv};
+\addplot[name path=nomhi,draw=none,forget plot] table[x=distance_mm,y=position_error_mm_p90,col sep=comma]{distance_extension_quality_nominal20G.csv};
+\addplot[nominal!16,draw=none,forget plot] fill between[of=nomlo and nomhi];
+\addplot[name path=fitlo,draw=none,forget plot] table[x=distance_mm,y=position_error_mm_p10,col sep=comma]{distance_extension_quality_field_fit.csv};
+\addplot[name path=fithi,draw=none,forget plot] table[x=distance_mm,y=position_error_mm_p90,col sep=comma]{distance_extension_quality_field_fit.csv};
+\addplot[fitted!16,draw=none,forget plot] fill between[of=fitlo and fithi];
+\addplot[nominal,line width=1.1pt] table[x=distance_mm,y=position_error_mm_median,col sep=comma]{distance_extension_quality_nominal20G.csv};
+\addlegendentry{2 mT reference}
+\addplot[fitted,line width=1.1pt] table[x=distance_mm,y=position_error_mm_median,col sep=comma]{distance_extension_quality_field_fit.csv};
+\addlegendentry{Field fit}
+\end{axis}
+\begin{axis}[paperaxis,at={(11.3cm,1.15cm)},
+title={(b) Gradient signal quality},
+ylabel={Gradient signal / error RMS [dB]},
+ymin=-35,ymax=50,ytick={-30,-20,-10,0,10,20,30,40,50},
+yticklabels={\textminus 30,\textminus 20,\textminus 10,0,10,20,30,40,50},
+legend pos=north east]
+\addplot[gray!70,densely dotted,line width=.8pt,forget plot] coordinates {(200,0)(805,0)};
+\addplot[nominal,dashed,line width=.9pt,forget plot] table[x=distance_mm,y=gradient_random_noise_snr_dB,col sep=comma]{distance_extension_quality_nominal20G.csv};
+\addplot[fitted,dashed,line width=.9pt,forget plot] table[x=distance_mm,y=gradient_random_noise_snr_dB,col sep=comma]{distance_extension_quality_field_fit.csv};
+\addplot[nominal,line width=1.1pt,forget plot] table[x=distance_mm,y=gradient_signal_to_total_error_dB,col sep=comma]{distance_extension_quality_nominal20G.csv};
+\addplot[fitted,line width=1.1pt,forget plot] table[x=distance_mm,y=gradient_signal_to_total_error_dB,col sep=comma]{distance_extension_quality_field_fit.csv};
+\addlegendimage{black!75,line width=1.1pt}
+\addlegendentry{Total error}
+\addlegendimage{black!75,dashed,line width=.9pt}
+\addlegendentry{Random noise (SNR)}
+\end{axis}
+\pgfresetboundingbox
+\path[use as bounding box] (0,0) rectangle (19.8cm,6.8cm);
+\end{tikzpicture}
+\end{document}

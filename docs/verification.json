@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-29",
+  "scope": "Simulation and calibration distribution",
+  "full_distance_run": {
+    "trials": 81804,
+    "summary_rows": 612,
+    "numerical_failures": 0
+  },
+  "fresh_calibration_run": {
+    "files": 15,
+    "samples": 3706
+  },
+  "fresh_core_example": {
+    "position_error_mm": 0.0463,
+    "orientation_error_deg": 0.0534
+  },
+  "numeric_checks": {
+    "distance/simulation_summary.csv": {
+      "rows": 612,
+      "max_abs_numeric_difference": 9.931925547561251e-09,
+      "passed": true
+    },
+    "distance/simulation_trials.csv.gz": {
+      "rows": 81804,
+      "max_abs_numeric_difference": 3.095820488852041e-08,
+      "passed": true
+    },
+    "distance/ray_geometry.csv": {
+      "rows": 41,
+      "max_abs_numeric_difference": 0.0,
+      "passed": true
+    },
+    "distance/paper_figure/distance_extension_quality_nominal20G.csv": {
+      "rows": 41,
+      "max_abs_numeric_difference": 6.87805368215777e-12,
+      "passed": true
+    },
+    "distance/paper_figure/distance_extension_quality_field_fit.csv": {
+      "rows": 41,
+      "max_abs_numeric_difference": 3.410605131648481e-12,
+      "passed": true
+    },
+    "calibration/per_condition.csv": {
+      "rows": 15,
+      "max_abs_numeric_difference": 0.0,
+      "passed": true
+    },
+    "calibration/per_sample.csv": {
+      "rows": 3706,
+      "max_abs_numeric_difference": 0.0,
+      "passed": true
+    }
+  },
+  "preserved_modules": {
+    "core": {
+      "file_count": 8,
+      "changed_files": [],
+      "numerical_inputs_and_code_preserved": true
+    },
+    "calibration": {
+      "file_count": 32,
+      "changed_files": [],
+      "numerical_inputs_and_code_preserved": true
+    },
+    "source_geometry": {
+      "file_count": 41,
+      "changed_files": [],
+      "numerical_inputs_and_code_preserved": true
+    },
+    "tdm_motion": {
+      "file_count": 54,
+      "changed_files": [
+        "tdm_motion/reference/inputs/fig6_input_provenance.json"
+      ],
+      "numerical_inputs_and_code_preserved": true
+    }
+  },
+  "comparison_tolerance": {
+    "atol": 1e-06,
+    "rtol": 1e-08
+  },
+  "original_localization_measurements_included": false,
+  "source_moment_refit_reproduced": false,
+  "note": "Source geometry and motion numerical files are byte-identical to the previously verified release. They were not rerun solely for this packaging change."
+}

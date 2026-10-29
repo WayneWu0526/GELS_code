@@ -1,0 +1,136 @@
+def _cylinder_surface(
+    center: np.ndarray,
+    rotation: np.ndarray,
+    radius: float,
+    length: float,
+    num_theta: int = 48,
+    num_length: int = 24,
+) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
+    theta = np.linspace(0.0, 2.0 * np.pi, num_theta)
+    axial = np.linspace(-length / 2.0, length / 2.0, num_length)
+    theta_grid, axial_grid = np.meshgrid(theta, axial)
+
+    local_points = np.stack(
+        [
+            radius * np.cos(theta_grid),
+            radius * np.sin(theta_grid),
+            axial_grid,
+        ],
+        axis=-1,
+    )
+    world_points = center + local_points @ rotation.T
+    return world_points[..., 0], world_points[..., 1], world_points[..., 2]
+
+
+def _circle_points(
+    center: np.ndarray,
+    rotation: np.ndarray,
+    radius: float,
+    axial_offset: float,
+    num_theta: int = 48,
+) -> np.ndarray:
+    theta = np.linspace(0.0, 2.0 * np.pi, num_theta)
+    local_points = np.stack(
+        [
+            radius * np.cos(theta),
+            radius * np.sin(theta),
+            np.full_like(theta, axial_offset),
+        ],
+        axis=-1,
+    )
+    return center + local_points @ rotation.T
+
+
+def draw_electromagnet(
+    ax: Any,
+    pose: Pose3D,
+    core_diameter: float = 0.040,
+    coil_outer_diameter: float = 0.056,
+    core_length: float = 0.250,
+    coil_length: float = 0.230,
+    core_alpha: float = 1.0,
+    coil_alpha: float = 1.0,
+    line_alpha: float = 0.95,
+) -> None:
+    rotation = quaternion_xyzw_to_rotation_matrix(pose.quaternion_xyzw)
+    center = pose.position
+
+    core_radius = core_diameter / 2.0
+    coil_outer_radius = coil_outer_diameter / 2.0
+
+    core_x, core_y, core_z = _cylinder_surface(
+        center=center,
+        rotation=rotation,
+        radius=core_radius,
+        length=core_length,
+    )
+    ax.plot_surface(
+        core_x,
+        core_y,
+        core_z,
+        color="#5a5a5a",
+        alpha=core_alpha,
+        linewidth=0,
+        antialiased=True,
+        shade=True,
+    )
+
+    coil_x, coil_y, coil_z = _cylinder_surface(
+        center=center,
+        rotation=rotation,
+        radius=coil_outer_radius,
+        length=coil_length,
+    )
+    ax.plot_surface(
+        coil_x,
+        coil_y,
+        coil_z,
+        color="#b87333",
+        alpha=coil_alpha,
+        linewidth=0,
+        antialiased=True,
+        shade=True,
+    )
+
+    z_axis = rotation[:, 2]
+    endpoint_a = center - z_axis * core_length / 2.0
+    endpoint_b = center + z_axis * core_length / 2.0
+    ax.plot(
+        [endpoint_a[0], endpoint_b[0]],
+        [endpoint_a[1], endpoint_b[1]],
+        [endpoint_a[2], endpoint_b[2]],
+        color="0.12",
+        linewidth=0.8,
+        alpha=line_alpha,
+    )
+
+    for axial_offset in (-coil_length / 2.0, coil_length / 2.0):
+        ring = _circle_points(
+            center=center,
+            rotation=rotation,
+            radius=coil_outer_radius,
+            axial_offset=axial_offset,
+        )
+        ax.plot(
+            ring[:, 0],
+            ring[:, 1],
+            ring[:, 2],
+            color="#7a431b",
+            linewidth=0.6,
+            alpha=line_alpha,
+        )
+
+
+def prepare_matplotlib(show: bool, use_tex: bool = False, font_size: float = 16.0) -> Any:
+    if not show:
+        draw_electromagnet(
+            ax,
+            source_pose,
+            core_diameter=0.040,
+            coil_outer_diameter=0.056,
+            core_length=0.250,
+            coil_length=0.230,
+            core_alpha=0.42,
+            coil_alpha=0.34,
+            line_alpha=0.50,
+        )

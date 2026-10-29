@@ -1,0 +1,69 @@
+# MaPS Simulation Example Config
+# --------------------------------
+# This file fully describes one simulation trial.  Edit any section and
+# re-run:  python run_simulation.py --config configs/example.yaml
+
+# ── Sensor array ──────────────────────────────────────────────────────────────
+sensor_array:
+  # Physical offsets of each sensor from the array centre, in the sensor frame.
+  # Shape: (N, 3), unit: meters.
+  # These values correspond to the QMC6309 12-sensor array used in the paper.
+  d_list:
+    - [-0.001,  0.00105, -0.001]
+    - [-0.001,  0.00105,  0.000]
+    - [-0.001,  0.00105,  0.001]
+    - [-0.001, -0.00105, -0.001]
+    - [-0.001, -0.00105,  0.000]
+    - [-0.001, -0.00105,  0.001]
+    - [ 0.001,  0.00105, -0.001]
+    - [ 0.001,  0.00105,  0.000]
+    - [ 0.001,  0.00105,  0.001]
+    - [ 0.001, -0.00105, -0.001]
+    - [ 0.001, -0.00105,  0.000]
+    - [ 0.001, -0.00105,  0.001]
+
+  # Sensor IDs to use (1-indexed).  Must be a subset of d_list row indices.
+  # Remove this key (or set to null) to use all rows in d_list.
+  sensor_ids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+
+
+# ── Ground-truth target pose (sensor array) ──────────────────────────────────
+target_pose:
+  # Position of the sensor array centre in the global frame, unit: meters.
+  position: [0.0, 0.0, 0.05]
+
+  # Orientation as ZYX Euler angles, unit: degrees.
+  # Convention: R = Rz(yaw) @ Ry(pitch) @ Rx(roll)
+  euler_zyx_deg: [0.0, 0.0, 0.0]
+
+
+# ── EM sources (one entry per TDM slot) ──────────────────────────────────────
+sources:
+  # Each source is a magnetic dipole fixed in the global frame.
+  # moment_direction is normalised internally; moment_magnitude sets |m| in A·m².
+  # Negative magnitude indicates the dipole points opposite to moment_direction.
+
+  - position: [0.03, 0.0,  0.0]
+    moment_direction: [0.0, 0.0, 1.0]
+    moment_magnitude: -53.0
+
+  - position: [0.0,  0.03, 0.0]
+    moment_direction: [0.0, 0.0, 1.0]
+    moment_magnitude: -53.0
+
+  - position: [0.0,  0.0,  0.03]
+    moment_direction: [0.0, 0.0, 1.0]
+    moment_magnitude: -57.0
+
+
+# ── Simulation parameters ─────────────────────────────────────────────────────
+simulation:
+  # Gaussian noise added to each field component, unit: Tesla.
+  # Set to 0.0 for noiseless (analytic) simulation.
+  noise_std_tesla: 0.0
+
+  # Random seed for reproducibility (integer or null).
+  random_seed: 1
+
+  # Dipole model order: 1 (point dipole), 3 (+ octupole), 5 (+ hexapole).
+  dipole_order: 1

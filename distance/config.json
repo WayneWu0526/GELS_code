@@ -1,0 +1,20 @@
+{
+  "distance_count": 41,
+  "maximum_mean_source_distance_mm": 800.0,
+  "realizations": 200,
+  "random_seed": 20260906,
+  "nominal_mean_field_G": 20.0,
+  "raw_slot_noise_std_uT": 0.3,
+  "effective_source_residual_vector_rms_uT": 6.0,
+  "measurement_mode": "CV source slots minus a shared background slot",
+  "residual_model": "fixed, zero-spatial-mean source-separated field discrepancy per source and realization; applied after background subtraction; sensitivity assumption, not measured temporal noise or raw static sensor offset",
+  "notes": [
+    "All output fields and localization estimates are synthetic.",
+    "Reference geometries and source moments are frozen inputs. Their measured origins are documented in simulation_parameters.json.",
+    "Noise is an assumed per-axis raw-slot standard deviation, not a value estimated from the archived acquisitions.",
+    "Source moments remain fixed over the distance scan.",
+    "The legacy recorded domain contains simulations at fixed reference geometries, not experimental localization results.",
+    "The point-dipole model is used. Higher-order source terms are not included."
+  ],
+  "simulation_parameters": "simulation_parameters.json"
+}

@@ -1,0 +1,28 @@
+\begin{thebibliography}{1}
+
+\bibitem{fischerUsingMagneticFields2022}
+C.~Fischer, Q.~Boehler, and B.~J. Nelson, ``Using magnetic fields to navigate
+  and simultaneously localize catheters in endoluminal environments,'' {\em
+  IEEE Robotics and Automation Letters}, vol.~7, pp.~7217--7223, July 2022.
+
+\bibitem{fischerGradiometerBasedMagneticLocalization2023}
+C.~Fischer, T.~Quirin, C.~Chautems, Q.~Boehler, J.~Pascal, and B.~J. Nelson,
+  ``Gradiometer-based magnetic localization for medical tools,'' {\em IEEE
+  Transactions on Magnetics}, vol.~59, pp.~1--5, Feb. 2023.
+
+\bibitem{dinataliJacobianBasedIterativeMethod2016}
+C.~Di~Natali, M.~Beccani, N.~Simaan, and P.~Valdastri, ``Jacobian-based
+  iterative method for magnetic localization in robotic capsule endoscopy,''
+  {\em IEEE Transactions on Robotics}, vol.~32, pp.~327--338, Apr. 2016.
+
+\bibitem{arxSimultaneousLocalizationActuation2023}
+D.~von Arx, C.~Fischer, H.~Torlakcik, S.~Pan{\'e}, B.~J. Nelson, and
+  Q.~Boehler, ``Simultaneous localization and actuation using electromagnetic
+  navigation systems,'' {\em IEEE Transactions on Robotics}, pp.~1--17, 2023.
+
+\bibitem{xiangPortableFlexibleIntermediary2026}
+P.~Xiang, D.~Sun, G.~Ma, H.~Zhang, R.~Xiong, Y.~Wang, H.~Lu, and T.~Xu, ``A
+  portable and flexible intermediary patch for in vivo magnetic localization,''
+  {\em Nat. Sens.}, vol.~1, pp.~181--193, Feb. 2026.
+
+\end{thebibliography}

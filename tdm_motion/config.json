@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "configuration": "Config1",
+  "sensor_count": 12,
+  "modes": [
+    "CV",
+    "CC"
+  ],
+  "trajectory": {
+    "type": "circle",
+    "plane": "world_xy",
+    "radius_m": 0.04,
+    "center_rule": "mean of all ten archived target positions",
+    "orientation_rule": "fixed orientation of archived target_index 0",
+    "direction": "counterclockwise viewed from +z",
+    "phase_count": 180,
+    "speed_mm_s": [
+      0,
+      1,
+      2,
+      5,
+      10,
+      20,
+      50,
+      100
+    ]
+  },
+  "reference_time": "end of last active-source sensor acquisition window; CV background completion recorded separately",
+  "phase_rule": "The target is at the same reference phase at each mode-specific acquisition end. Every speed uses the same 180 phases. These are phase-matched acquisition windows, not a claim of 180 consecutive updates per revolution.",
+  "main_acquisition": "sequential_sensor",
+  "controls": [
+    "synchronous",
+    "source_slot_only",
+    "ideal_rho"
+  ],
+  "controls_explained": {
+    "synchronous": "All source and sensor fields evaluated at reference time. Retains finite-array spatial approximation.",
+    "source_slot_only": "Each source sampled at its nominal mean sensor time, with all sensors simultaneous within that slot. Isolates sensitivity to within-slot timing.",
+    "ideal_rho": "Exact geometric source-to-array relative vector at each source mean time; tests only cross-source registration inconsistency."
+  },
+  "zero_speed_rule": "Each circle reference position is treated as a separate stationary case. The zero-speed family is the static baseline around the circle.",
+  "noise_std_T": 0.0,
+  "temporal_averaging": false,
+  "source_model": "point dipoles, fixed source strength and geometry from frozen baseline",
+  "statistics": "Mean, median, p95 (linear quantile), maximum across all 180 phases. Phase spread is not a statistical confidence interval.",
+  "scope": "Kinematic sensitivity simulation only. No hardware or clinical speed validation. Nominal sensor read order and midpoint timestamps are assumptions, not verified firmware events."
+}

@@ -1,0 +1,38 @@
+{
+  "extraction": {
+    "reason": "strictly noiseless synthetic baseline",
+    "recorded_field_data_used": false,
+    "source_axis_rule": "normalized mean of tracked local +z axes over cycles 0-9",
+    "source_position_rule": "arithmetic mean over cycles 0-9",
+    "source_slots": [
+      0,
+      1,
+      2
+    ],
+    "target_pose_field": "ground_truth_pose",
+    "target_pose_rule": "top-level tracked ground_truth_pose from each cycle"
+  },
+  "output_files": {
+    "fig6_source_configuration.csv": "0f9837f11121eda85c706539d3eadbfb877465a95feafe39ab50fbe875bbdc7b",
+    "fig6_target_poses.csv": "4962f7ce7e97b3aee9ef4798761d05053ce851b688aecabc9ab9f8a4fe492e46"
+  },
+  "source_geometry": {
+    "axis_rms_jitter_deg": [
+      0.06968134521675559,
+      0.17687788567651777,
+      0.1565295763138091
+    ],
+    "centered_singular_values_m": [
+      0.2637252740270656,
+      0.18681938408325596,
+      1.477991493176432e-17
+    ],
+    "g_shape": 0.7083863492889312,
+    "position_rms_jitter_mm": [
+      0.36615450635293484,
+      0.7672030236607046,
+      3.6330349937534003
+    ]
+  },
+  "scope": "Derived fixed geometric parameters for simulation. No raw magnetic measurements or experimental estimates are included."
+}

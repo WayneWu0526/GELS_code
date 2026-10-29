@@ -1,0 +1,27 @@
+{
+  "pdf_width_cm": 19.800005555555558,
+  "pdf_height_cm": 9.416132777777777,
+  "label_font_sizes_pt": [
+    9,
+    10
+  ],
+  "core_diameter_mm": 40,
+  "core_length_mm": 250,
+  "coil_outer_diameter_mm": 56,
+  "coil_length_mm": 230,
+  "core_alpha": 0.42,
+  "coil_alpha": 0.34,
+  "line_alpha": 0.5,
+  "trajectory_radius_mm": 40.0,
+  "pages": 1,
+  "x_axis": "linear",
+  "y_axis": "linear",
+  "plotted_speeds_mm_s": [
+    0,
+    1,
+    2,
+    5,
+    10
+  ],
+  "zero_speed_plotted": true
+}

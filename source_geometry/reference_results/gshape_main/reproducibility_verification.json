@@ -1,0 +1,33 @@
+{
+  "created_at_utc": "2026-08-25T06:53:41.708961+00:00",
+  "status": "REPRODUCED_EXACT",
+  "reference": "/home/zhang/embedded_array_ws-gshape-sim/src/gels_localization/simulation/gshape/results/gshape_main",
+  "candidate": "/home/zhang/embedded_array_ws-gshape-sim/src/gels_localization/simulation/gshape/results/gshape_main_repeat",
+  "files": [
+    {
+      "name": "target_poses.csv",
+      "sha256": "44d06732a9bf1b632a39c5c0631cc2502227c652c2ec09dd61331a9ecb428f20",
+      "identical": true
+    },
+    {
+      "name": "source_configurations.csv",
+      "sha256": "980c8ee478a2f0050392f1e8b8a8c7001a3d3138c248238fbdea1c0578495f55",
+      "identical": true
+    },
+    {
+      "name": "localization_errors.csv",
+      "sha256": "fe400393e055d0a197a51a025da11eab6474e5ec4c9cea3ea9b04a78622b4015",
+      "identical": true
+    },
+    {
+      "name": "target_error_summary.csv",
+      "sha256": "17dcd0b0f3c88c723e6736a08c6093216734cad27f611ac7e338b7af71bc2198",
+      "identical": true
+    },
+    {
+      "name": "summary_by_gshape.csv",
+      "sha256": "8531799614b8e53b82e2e981c9f8b4f20b1de8a80e7b2a8cd3a36d4a4b8d8c8b",
+      "identical": true
+    }
+  ]
+}

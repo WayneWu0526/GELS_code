@@ -1,0 +1,14 @@
+415: Each source is sequentially excited by a rectangular pulse of width $T_{\delta}$.
+416: To acquire measurements after the field settles, $T_{\delta} \geq T_{\tau}+T_s$, where $T_s$ is the gradiometer sampling period and $T_{\tau}$ is the current settling time.
+420: Setting $T_{\tau}=5\tau$ allows the transient to decay but lowers the localization frequency.
+421: In constant current (CC) mode, closed-loop regulation shortens the transient, allowing $T_{\tau}$ to be set well below $5\tau$, so $T_s$ primarily determines the localization frequency.
+422: With one inactive slot for the background field $(\pr{s}{}{\bm{X}}_0,\pr{s}{}{\bar{\mbc{b}}_0})$, the multiplexing cycle satisfies $T\geq(M+1)T_{\delta}$, whereas without this slot, $T\geq MT_{\delta}$.
+424: % Then, the phase offsets are defined recursively as $T_{\phi_k} = T_{\phi_{k-1}} + T_{\delta}$.
+717: GELS uses three electromagnets ($M=3$). Each electromagnet has an inductance of \SI{24.1}{\milli\henry} and a resistance of \SI{2.1}{\ohm}, is driven by a PSHEA-200C power amplifier, and is controlled by an STM32H743VIT6 MCU. 
+719: Because the MCU sequentially acquires the $N$ sensors through I2C buses at $f_s=\SI{1000}{\hertz}$, the gradiometer sampling period is $T_s=N/f_s=N~\si{\milli\second}$.
+722: For the CV tests, the hardware enforces a dead time of $5\tau \approx\SI{57.38}{\milli\second}$ (with measured $\tau = \SI{11.48}{\milli\second}$) before sampling. 
+723: % According to our TDM strategy, the excitation duty cycle for each source is thus configured as $T_{\delta} = 5\tau + T_s \approx \SI{117.38}{\milli\second}$. 
+724: % A complete TDM cycle, encompassing the $M=3$ source excitations and one background measurement, takes $T = (M+1)T_{\delta} = \SI{469.52}{\milli\second}$, yielding an effective continuous localization update rate of \SI{2.13}{\hertz}.
+760: For each configuration, ten consecutive motion sequences were tested under CV mode \added[]{using a four slot cycle with background subtraction} at a low frequency (\SI{3.47}{\hertz}) and faster CC mode, which omits the background slot and reaches \SI{14.49}{\hertz} in the fastest setting with three sensors. 
+774: % CV mode: f = 1/((M+1)*(N/1000+5\tau)) = 3.47 Hz for M=3, N=12, 5\tau=0.06 s.
+778: % CC fastest mode: f = 1/(M*(N/1000+0.02)) = 14.49 Hz for M=3, N=3.

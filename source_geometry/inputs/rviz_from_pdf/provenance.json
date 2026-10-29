@@ -1,0 +1,42 @@
+{
+  "source": "supplementary/figures/supp_source_geometry_sequence.pdf",
+  "source_sha256": "3e98e6e15200a07a570102dd370b9a7abb75658a0726df3512a8b97458aeafd3",
+  "method": "Extracted embedded raster image streams from the existing figure PDF, sorted by horizontal position. These are figure-resolution views, not original RViz captures. No new scene was rendered.",
+  "images": [
+    {
+      "file": "state_0.png",
+      "xref": 15,
+      "width": 740,
+      "height": 746,
+      "sha256": "25265fbde04170aa4300b11e06424784c64be7e4377a59d153006832125fe720"
+    },
+    {
+      "file": "state_1.png",
+      "xref": 18,
+      "width": 741,
+      "height": 746,
+      "sha256": "4f006c67668adc208c1d62a22b51fdbdbf79dd9d55e7f06c1c250ffabe5843c2"
+    },
+    {
+      "file": "state_2.png",
+      "xref": 21,
+      "width": 741,
+      "height": 745,
+      "sha256": "7ec0f085560d37402abe248bf43cd42a198728f28b55f65de12e83fc985e6efc"
+    },
+    {
+      "file": "state_3.png",
+      "xref": 24,
+      "width": 741,
+      "height": 746,
+      "sha256": "f34ebcf8ce065a662a1c26f4d399776094761903031b1b601dde1e26be83a4f3"
+    },
+    {
+      "file": "state_4.png",
+      "xref": 27,
+      "width": 741,
+      "height": 746,
+      "sha256": "fcc756e242ad26d1b7510a0c5f4902608d6b4f21c289588dc4beea99b2d8d19f"
+    }
+  ]
+}

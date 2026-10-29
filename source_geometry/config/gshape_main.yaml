@@ -1,0 +1,56 @@
+experiment:
+  label: main_simulation_assumed_noise_unverified
+  random_seed: 20260825
+  noise_seed: 20260826
+
+geometry:
+  g_values:
+    - 0.01
+    - 0.015
+    - 0.02
+    - 0.03
+    - 0.04
+    - 0.05
+    - 0.07
+    - 0.10
+    - 0.13
+    - 0.16
+    - 0.20
+    - 0.25
+    - 0.30
+    - 0.35
+    - 0.40
+    - 0.45
+    - 0.50
+    - 0.55
+    - 0.60
+    - 0.65
+    - 0.70
+    - 0.75
+    - 0.80
+    - 0.90
+    - 1.00
+  centroid_m: [0.0, 0.0, 0.0]
+  frobenius_scale_m: 0.33
+  plane_basis:
+    - [1.0, 0.0]
+    - [0.0, 1.0]
+    - [0.0, 0.0]
+
+sources:
+  moment_A_m2: [0.0, 0.0, 250.0]
+  model_order: 1
+
+targets:
+  count: 100
+  center_m: [0.0, 0.0, -0.30]
+  half_extent_m: [0.04, 0.04, 0.04]
+  orientation_mode: random
+
+measurement:
+  trials_per_target: 30
+  noise_std_T: 5.0e-7
+  noise_provenance: internal_assumption_noise_analysis_rp_FIXED_NOISE_LEVEL_0.005_Gs
+
+output:
+  directory: results/gshape_main

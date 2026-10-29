@@ -1,0 +1,11 @@
+{
+  "original_main_executed": false,
+  "max_abs_errors": {
+    "reference_G": 0.0,
+    "R_CORR_aligned_G": 0.0,
+    "D": 4.440892098500626e-15,
+    "e_G": 5.95747409737335e-15,
+    "delta_o_pre_G": 2.220446049250313e-16,
+    "delta_o_post_G": 1.2420620087993939e-15
+  }
+}

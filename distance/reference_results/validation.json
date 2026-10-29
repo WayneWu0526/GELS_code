@@ -1,0 +1,11 @@
+{
+  "analytic_gradient_relative_fd_error": 1.2442365666872177e-10,
+  "all_three_source_distances_strictly_increase": true,
+  "minimum_ray_source_projection_m": 0.05541100166368115,
+  "gradient_signal_decreases": {
+    "nominal20G": true,
+    "field_fit": true
+  },
+  "source_strength_constant_over_ray": true,
+  "synthetic_results_only": true
+}

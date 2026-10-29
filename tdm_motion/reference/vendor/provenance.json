@@ -1,0 +1,20 @@
+[
+  {
+    "original": "multimedia/source_code/maps_estimator.py",
+    "original_sha256": "dfad3f8a493a94f4d405f7fa74d6accbe804db9a148de417f939b166f14249ac",
+    "vendored_sha256": "e94547db59a6c48f22729419463442f4461a111d0cee8481ccf45b2a90394e12",
+    "change": "NumPy scalar compatibility only: float(1x1 array) -> array.item()"
+  },
+  {
+    "original": "multimedia/source_code/kabsch_solver.py",
+    "original_sha256": "1c9541e91b36c42b9597dbb57690d4825cedc14bf23e390e52080215159fc0d5",
+    "vendored_sha256": "1c9541e91b36c42b9597dbb57690d4825cedc14bf23e390e52080215159fc0d5",
+    "change": "unchanged"
+  },
+  {
+    "original": "multimedia/source_code/mag_dipole_model.py",
+    "original_sha256": "8e5aca104d962cb0d67e9778d79cbde5079260d6b2aa0f1497f7120ee99319fc",
+    "vendored_sha256": "8e5aca104d962cb0d67e9778d79cbde5079260d6b2aa0f1497f7120ee99319fc",
+    "change": "unchanged"
+  }
+]
